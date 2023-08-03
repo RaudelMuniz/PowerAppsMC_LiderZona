@@ -1,0 +1,66 @@
+{
+  "5db4d5f2-bc5c-41fb-acd3-a21ec8e0169c": {
+    "connectionRef": {
+      "apiTier": "Premium",
+      "authenticationType": "sqlAuthentication",
+      "displayName": "SQL Server",
+      "executionRestrictions": {
+        "apiId": "/providers/microsoft.powerapps/apis/shared_sql",
+        "apiVer": 2,
+        "appVer": "3.23073.23",
+        "modifiedOn": "2023-08-03 16:36:12",
+        "policy": "{\"type\":\"tabular\",\"dataSources\":{\"[dbo].[mesacontrol_admin]\":[\"get\"],\"[dbo].[mesacontrol_historialuser]\":[\"get\"],\"[dbo].[mesacontrol_liderope]\":[\"get\"],\"[dbo].[mesacontrol_mesascontrol]\":[\"get\"],\"[dbo].[mesacontrol_request]\":[\"get\"],\"[dbo].[mesacontrol_usergeneral]\":[\"get\"],\"[dbo].[mesacontrol_zonas]\":[\"get\"]}}",
+        "version": 1
+      },
+      "gatewayObjectIdHint": "217359fc-552c-470d-bcb6-5f7d514806f1",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/laborbol/partial-builds/sql-1644-2/1.0.1644.3343/sql/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sql",
+      "isOnPremiseConnection": true,
+      "parameterHints": {},
+      "parameterHintsV2": {},
+      "sharedConnectionId": "/providers/microsoft.powerapps/apis/shared_sql/connections/e772cfcf3b6d4324a4761fb9926074d4"
+    },
+    "datasets": {
+      "sqc8107pmi001.229b7873c6f5.database.windows.net,CMXEDataCollection": {
+        "dataSources": {
+          "MesaControl_Admin": {
+            "tableName": "[dbo].[MesaControl_Admin]"
+          },
+          "MesaControl_HistorialUser": {
+            "tableName": "[dbo].[MesaControl_HistorialUser]"
+          },
+          "MesaControl_LiderOpe": {
+            "tableName": "[dbo].[MesaControl_LiderOpe]"
+          },
+          "MesaControl_MesasControl": {
+            "tableName": "[dbo].[MesaControl_MesasControl]"
+          },
+          "MesaControl_Request": {
+            "tableName": "[dbo].[MesaControl_Request]"
+          },
+          "MesaControl_UserGeneral": {
+            "tableName": "[dbo].[MesaControl_UserGeneral]"
+          },
+          "MesaControl_Zonas": {
+            "tableName": "[dbo].[MesaControl_Zonas]"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "MesaControl_Admin",
+      "MesaControl_HistorialUser",
+      "MesaControl_LiderOpe",
+      "MesaControl_MesasControl",
+      "MesaControl_Request",
+      "MesaControl_UserGeneral",
+      "MesaControl_Zonas"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "endpoints": [
+      "sqc8107pmi001.229b7873c6f5.database.windows.net,CMXEDataCollection"
+    ],
+    "id": "5db4d5f2-bc5c-41fb-acd3-a21ec8e0169c"
+  }
+}

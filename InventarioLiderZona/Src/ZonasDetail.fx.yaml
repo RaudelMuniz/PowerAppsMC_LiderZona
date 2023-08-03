@@ -1,0 +1,298 @@
+ZonasDetail As screen:
+
+    Rectangle4_1 As rectangle:
+        Fill: =RGBA(21, 44, 115, 1)
+        Height: =84
+        Width: =640
+        ZIndex: =2
+
+    Label1_1 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =84
+        Size: =30
+        Text: ="Detalle Zona"
+        Width: =264
+        X: =188
+        ZIndex: =3
+
+    Image3_2 As image:
+        Height: =52
+        Image: ='return-button (1)'
+        OnSelect: =Back()
+        Width: =72
+        X: =25
+        Y: =16
+        ZIndex: =4
+
+    Icon2_1 As icon.Reload:
+        Color: =RGBA(255, 255, 255, 1)
+        DisplayMode: |
+            =DisplayMode.Edit
+        Icon: =Icon.Reload
+        OnSelect: =Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
+        X: =563
+        Y: =10
+        ZIndex: =5
+
+    "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
+        DelayItemLoading: =true
+        Height: =273
+        Items: =GalleriaZonas.Selected
+        Layout: =Layout.Vertical
+        LoadingSpinner: =LoadingSpinner.Data
+        TemplatePadding: =0
+        TemplateSize: =233
+        Y: =84
+        ZIndex: =6
+
+        Title2 As label:
+            Color: =RGBA(0, 0, 0, 1)
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =28
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =20
+            Text: =ThisItem.no_Zona
+            VerticalAlign: =VerticalAlign.Top
+            Width: =193
+            X: =209
+            Y: =19
+            ZIndex: =2
+
+        Subtitle2 As label:
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =29
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =20
+            Text: =ThisItem.estatusGeneral
+            VerticalAlign: =VerticalAlign.Top
+            Width: =193
+            X: =209
+            Y: =70
+            ZIndex: =3
+
+        Separator2 As rectangle:
+            Height: =8
+            OnSelect: =Select(Parent)
+            Width: =Parent.TemplateWidth
+            Y: =Parent.TemplateHeight - Self.Height
+            ZIndex: =5
+
+        Subtitle2_1 As label:
+            FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
+            Height: =36
+            OnSelect: =Select(Parent)
+            PaddingBottom: =0
+            PaddingLeft: =0
+            PaddingRight: =0
+            PaddingTop: =0
+            Size: =20
+            Text: =ThisItem.Fase
+            VerticalAlign: =VerticalAlign.Top
+            Width: =193
+            X: =209
+            Y: =122
+            ZIndex: =7
+
+        Label2 As label:
+            Height: =43
+            OnSelect: =Select(Parent)
+            Size: =21
+            Text: |-
+                ="Estatus:"
+            Width: =127
+            X: =82
+            Y: =63
+            ZIndex: =8
+
+        Label2_1 As label:
+            Height: =43
+            OnSelect: =Select(Parent)
+            Size: =21
+            Text: |-
+                ="Fase:"
+            Width: =127
+            X: =82
+            Y: =115
+            ZIndex: =9
+
+        Label2_2 As label:
+            Height: =43
+            OnSelect: =Select(Parent)
+            Size: =21
+            Text: |-
+                ="Zona:"
+            Width: =127
+            X: =82
+            Y: =11
+            ZIndex: =10
+
+    Button1 As button:
+        DisplayMode: =If(GalleriaZonas.Selected.estatusF1="N/A",DisplayMode.Edit,DisplayMode.Disabled)
+        Fill: =RGBA(0, 18, 107, 1)
+        Height: =96
+        OnSelect: |-
+            =Patch(
+                MesaControl_Request,
+                LookUp(
+                    MesaControl_Request,
+                    no_Zona=GalleriaZonas.Selected.no_Zona
+                ),
+                {
+                    estatusF1: "En Proceso",
+                    hrsEstatusF1: Now(),
+                    estatusGeneral:"En Proceso",
+                    Fase:"Registro Zona"
+                }
+            )
+        Size: =24
+        Text: ="Iniciar Check List"
+        Width: =304
+        X: =168
+        Y: =404
+        ZIndex: =7
+
+    Rectangle6 As rectangle:
+        Fill: =RGBA(21, 44, 115, 1)
+        Height: =101
+        Width: =640
+        Y: =1035
+        ZIndex: =8
+
+    Circle2 As circle:
+        Fill: =RGBA(21, 44, 115, 1)
+        Height: =175
+        Width: =640
+        Y: =942
+        ZIndex: =9
+
+    Image3 As image:
+        Height: =167
+        Image: =carrier_logo_300
+        Width: =285
+        X: =177
+        Y: =950
+        ZIndex: =10
+
+    Group1 As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =13
+
+        Button2 As button:
+            DisplayMode: =If(GalleriaZonas.Selected.estatusF2="Pendiente",DisplayMode.Disabled,DisplayMode.Edit)
+            Height: =87
+            OnSelect: =Set(popUpLiderZona,true)
+            Size: =24
+            Text: ="Finalizar"
+            Visible: =If(GalleriaZonas.Selected.estatusF1="N/A",false,true)
+            Width: =304
+            X: =168
+            Y: =621
+            ZIndex: =11
+
+        Label3 As label:
+            Align: =Align.Center
+            Height: =70
+            Size: =21
+            Text: ="¿Desea finalizar el Registro de Zona?"
+            Visible: =If(GalleriaZonas.Selected.estatusF1="N/A",false,true)
+            Width: =560
+            X: =40
+            Y: =539
+            ZIndex: =12
+
+    Group2 As group:
+        Height: =5
+        Width: =5
+        X: =80
+        Y: =80
+        ZIndex: =18
+
+        Rectangle3 As rectangle:
+            Fill: =RGBA(56, 96, 178, 0.5)
+            Height: =1136
+            Visible: =popUpLiderZona
+            Width: =640
+            ZIndex: =13
+
+        Rectangle5 As rectangle:
+            BorderThickness: =1
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =352
+            Visible: =popUpLiderZona
+            Width: =540
+            X: =60
+            Y: =198
+            ZIndex: =14
+
+        Button5 As button:
+            DisabledColor: =RGBA(0, 0, 0, 1)
+            Fill: =RGBA(54, 176, 75, 1)
+            Height: =85
+            HoverColor: =RGBA(0, 0, 0, 1)
+            HoverFill: =ColorFade(Self.BorderColor, 20%)
+            OnSelect: |-
+                =Patch(
+                    MesaControl_Request,
+                    LookUp(
+                        MesaControl_Request,
+                        no_Zona=GalleriaZonas.Selected.no_Zona
+                    ),
+                    {
+                        estatusF1: "Terminado",
+                        estatusF2: "Pendiente",
+                        hrsEstatusF1Fin:Now(),
+                        hrsEstatusF2: Now(),
+                        Fase:"Espera Asignación de Equipo"
+                    }
+                );
+                Set(popUpLiderZona,false);Navigate(ZonasEstatus,ScreenTransition.Fade)
+            PressedColor: =RGBA(0, 0, 0, 1)
+            PressedFill: =ColorFade(Self.BorderColor, 50%)
+            Size: =24
+            Text: ="Aceptar"
+            Visible: =popUpLiderZona
+            Width: =214
+            X: =349
+            Y: =422
+            ZIndex: =15
+
+        Button6 As button:
+            Fill: =RGBA(255, 191, 0, 1)
+            Height: =85
+            HoverColor: =RGBA(0, 0, 0, 1)
+            HoverFill: =ColorFade(Self.BorderColor, 20%)
+            OnSelect: =Set(popUpLiderZona,false)
+            PressedColor: =RGBA(0, 0, 0, 1)
+            PressedFill: =ColorFade(Self.BorderColor, 50%)
+            Size: =24
+            Text: ="Cancelar"
+            Visible: =popUpLiderZona
+            Width: =214
+            X: =85
+            Y: =422
+            ZIndex: =16
+
+        Label2_3 As label:
+            Align: =Align.Center
+            FontWeight: =FontWeight.Bold
+            Height: =193
+            Size: =23
+            Text: ="¿Seguro que desea finalizar el proceso de Registro de Zona?"
+            Visible: =popUpLiderZona
+            Width: =493
+            X: =83
+            Y: =215
+            ZIndex: =17
+
