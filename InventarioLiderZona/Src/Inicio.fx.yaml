@@ -2,9 +2,8 @@ Inicio As screen:
 
     Rectangle7_1 As rectangle:
         Fill: =RGBA(21, 44, 115, 1)
-        Height: =56
+        Height: =234
         Width: =640
-        Y: =78
         ZIndex: =2
 
     Button4_1 As button:
@@ -13,28 +12,10 @@ Inicio As screen:
         OnSelect: =Navigate(ZonaSelector,ScreenTransition.Fade)
         Size: =24
         Text: ="Entrar"
-        Width: =553
-        X: =43
-        Y: =992
+        Width: =328
+        X: =159
+        Y: =860
         ZIndex: =3
-
-    Image2_1 As image:
-        Height: =116
-        Image: =carrier_logo_300
-        Width: =640
-        Y: =52
-        ZIndex: =4
-
-    Label4_1 As label:
-        Align: =Align.Center
-        FontWeight: =FontWeight.Bold
-        Height: =83
-        Size: =35
-        Text: ="Conteo Anual " & Year( Now() )
-        Width: =449
-        X: =135
-        Y: =206
-        ZIndex: =5
 
     Image4 As image:
         Height: =320
