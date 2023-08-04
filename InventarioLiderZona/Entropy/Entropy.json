@@ -152,7 +152,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/04/2023 23:42:22",
+  "HeaderLastSavedDateTimeUTC": "08/04/2023 23:44:34",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "5db4d5f2-bc5c-41fb-acd3-a21ec8e0169c": "\"/providers/microsoft.powerapps/apis/shared_sql/connections/e772cfcf3b6d4324a4761fb9926074d4\""
@@ -599,7 +599,7 @@
       "group": 8,
       "groupContainer": 2,
       "icon": 7,
-      "image": 22,
+      "image": 23,
       "label": 45,
       "rectangle": 27,
       "screen": 8,
