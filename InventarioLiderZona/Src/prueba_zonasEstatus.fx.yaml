@@ -21,7 +21,7 @@ prueba_zonasEstatus As screen:
         Text: ="Detalle Zona"
         Width: =424
         X: =21
-        Y: =103
+        Y: =150
         ZIndex: =3
 
     Icon2_3 As icon.Reload:
@@ -171,4 +171,30 @@ prueba_zonasEstatus As screen:
             X: =15
             Y: =16
             ZIndex: =2
+
+    Group5 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =23
+
+        Image13 As image:
+            Height: =88
+            Image: ='user icon'
+            Width: =84
+            X: =21
+            Y: =219
+            ZIndex: =21
+
+        Label6_3 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            FontWeight: =FontWeight.Semibold
+            Height: =67
+            Size: =19
+            Text: =GalleriaZonas.Selected.Responsable
+            Width: =500
+            X: =97
+            Y: =230
+            ZIndex: =22
 
