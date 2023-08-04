@@ -104,24 +104,25 @@ Inicio_prueba2_1 As screen:
         ZIndex: =10
 
     Container1 As groupContainer.manualLayoutContainer:
-        Height: =91
-        X: =69
-        Y: =714
-        ZIndex: =12
+        Height: =92
+        X: =65
+        Y: =756
+        ZIndex: =11
 
-        Image10 As image:
-            Height: =91
+        Image8 As image:
+            Height: =92
             Image: =fondo_azul
             ImagePosition: =ImagePosition.Fill
             Width: =500
             ZIndex: =1
 
-        Button4_3 As button:
+        Button4_2 As button:
+            Color: =RGBA(255, 255, 255, 100)
             Fill: =RGBA(0, 0, 0, 0)
             Height: =92
             OnSelect: =Navigate(ZonaSelector,ScreenTransition.Fade)
             Size: =24
             Text: ="Entrar"
-            Width: =498
+            Width: =500
             ZIndex: =2
 
