@@ -18,7 +18,14 @@ Inicio As screen:
 
     Rectangle9 As rectangle:
         Fill: =RGBA(21, 44, 115, 1)
-        Height: =214
+        Height: =331
         Width: =640
         ZIndex: =5
+
+    Rectangle9_1 As rectangle:
+        Fill: =RGBA(21, 44, 115, 1)
+        Height: =181
+        Width: =640
+        Y: =955
+        ZIndex: =6
 

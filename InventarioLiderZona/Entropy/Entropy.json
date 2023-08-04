@@ -72,6 +72,7 @@
     "Rectangle6": 55,
     "Rectangle7": 28,
     "Rectangle9": 94,
+    "Rectangle9_1": 95,
     "Screen1": 25,
     "Separator1": 69,
     "Separator2": 45,
@@ -89,7 +90,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/04/2023 14:25:50",
+  "HeaderLastSavedDateTimeUTC": "08/04/2023 14:26:02",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "5db4d5f2-bc5c-41fb-acd3-a21ec8e0169c": "\"/providers/microsoft.powerapps/apis/shared_sql/connections/e772cfcf3b6d4324a4761fb9926074d4\""
@@ -221,6 +222,7 @@
     "Rectangle6": {},
     "Rectangle7": {},
     "Rectangle9": {},
+    "Rectangle9_1": {},
     "Screen1": {},
     "Separator1": {},
     "Separator2": {},
@@ -309,6 +311,7 @@
     "Rectangle6": 46,
     "Rectangle7": 27,
     "Rectangle9": 0,
+    "Rectangle9_1": 0,
     "Screen1": 24,
     "Separator1": 69,
     "Separator2": 56,
@@ -347,7 +350,7 @@
       "icon": 5,
       "image": 10,
       "label": 31,
-      "rectangle": 18,
+      "rectangle": 19,
       "screen": 6,
       "timer": 3
     },
