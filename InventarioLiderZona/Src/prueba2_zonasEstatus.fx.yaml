@@ -1,9 +1,9 @@
-prueba_zonasEstatus As screen:
-    BackgroundImage: ='9214'
+prueba2_zonasEstatus As screen:
+    BackgroundImage: ='fondo-color-blanco-gris'
     Fill: =RGBA(0, 0, 0, 0)
     ImagePosition: =ImagePosition.Fill
 
-    Image12_1 As image:
+    Image12_2 As image:
         Height: =688
         Image: =cuadro
         ImagePosition: =ImagePosition.Fill
@@ -12,8 +12,8 @@ prueba_zonasEstatus As screen:
         Y: =253
         ZIndex: =1
 
-    Label1_3 As label:
-        Color: =RGBA(0, 18, 107, 1)
+    Label1_4 As label:
+        Color: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Bold
         Height: =84
         Size: =35
@@ -23,7 +23,7 @@ prueba_zonasEstatus As screen:
         Y: =150
         ZIndex: =2
 
-    Label9_3 As label:
+    Label9_4 As label:
         BorderColor: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Bold
         Height: =80
@@ -34,7 +34,7 @@ prueba_zonasEstatus As screen:
         Y: =335
         ZIndex: =4
 
-    Label7_2 As label:
+    Label7_5 As label:
         FontWeight: =FontWeight.Bold
         Height: =74
         Size: =20
@@ -44,7 +44,7 @@ prueba_zonasEstatus As screen:
         Y: =451
         ZIndex: =6
 
-    Label7_4 As label:
+    Label7_6 As label:
         FontWeight: =FontWeight.Bold
         Height: =74
         Size: =20
@@ -54,7 +54,7 @@ prueba_zonasEstatus As screen:
         Y: =524
         ZIndex: =7
 
-    Label8_1 As label:
+    Label8_2 As label:
         Color: =RGBA(128, 128, 128, 1)
         Height: =25
         Italic: =true
@@ -65,7 +65,7 @@ prueba_zonasEstatus As screen:
         Y: =394
         ZIndex: =8
 
-    Timer1_1 As timer:
+    Timer1_2 As timer:
         AutoStart: =true
         Height: =57
         OnTimerStart: =Refresh(MesaControl_Request)
@@ -76,7 +76,7 @@ prueba_zonasEstatus As screen:
         Y: =1078
         ZIndex: =9
 
-    Rectangle11 As rectangle:
+    Rectangle11_1 As rectangle:
         Fill: =RGBA(221, 228, 240, 1)
         Height: =3
         Width: =405
@@ -84,21 +84,21 @@ prueba_zonasEstatus As screen:
         Y: =219
         ZIndex: =12
 
-    Container3 As groupContainer.manualLayoutContainer:
+    Container3_1 As groupContainer.manualLayoutContainer:
         Height: =59
         Width: =252
         X: =286
         Y: =458
         ZIndex: =13
 
-        Image14 As image:
+        Image14_1 As image:
             Height: =59
             Image: =azul
             ImagePosition: =ImagePosition.Fill
             Width: =252
             ZIndex: =1
 
-        Button11 As button:
+        Button11_1 As button:
             DisplayMode: =DisplayMode.View
             Fill: =RGBA(0, 0, 0, 0)
             Height: =59
@@ -107,21 +107,21 @@ prueba_zonasEstatus As screen:
             Width: =252
             ZIndex: =2
 
-    Container4 As groupContainer.manualLayoutContainer:
+    Container4_1 As groupContainer.manualLayoutContainer:
         Height: =59
         Width: =252
         X: =286
         Y: =532
         ZIndex: =14
 
-        Image16 As image:
+        Image16_1 As image:
             Height: =59
             Image: =azul
             ImagePosition: =ImagePosition.Fill
             Width: =252
             ZIndex: =1
 
-        Button12 As button:
+        Button12_1 As button:
             DisplayMode: =DisplayMode.View
             Fill: =RGBA(0, 0, 0, 0)
             Height: =58
@@ -130,14 +130,14 @@ prueba_zonasEstatus As screen:
             Width: =247
             ZIndex: =2
 
-    Container2 As groupContainer.manualLayoutContainer:
+    Container2_3 As groupContainer.manualLayoutContainer:
         Height: =64
         Width: =80
         X: =21
         Y: =13
         ZIndex: =19
 
-        Button10 As button:
+        Button10_3 As button:
             Fill: =RGBA(166, 166, 166, 0.35)
             Height: =64
             OnSelect: =Navigate(ZonaSelector,ScreenTransition.Fade)
@@ -146,7 +146,7 @@ prueba_zonasEstatus As screen:
             Width: =80
             ZIndex: =1
 
-        Icon3_1 As icon.ChevronLeft:
+        Icon3_4 As icon.ChevronLeft:
             Color: =RGBA(255, 255, 255, 1)
             DisplayMode: =DisplayMode.View
             Height: =31
@@ -156,14 +156,14 @@ prueba_zonasEstatus As screen:
             Y: =16
             ZIndex: =2
 
-    Container2_1 As groupContainer.manualLayoutContainer:
+    Container2_2 As groupContainer.manualLayoutContainer:
         Height: =64
         Width: =80
         X: =538
         Y: =13
         ZIndex: =20
 
-        Button10_1 As button:
+        Button10_2 As button:
             Fill: =RGBA(166, 166, 166, 0.35)
             Height: =64
             OnSelect: =Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
@@ -172,7 +172,7 @@ prueba_zonasEstatus As screen:
             Width: =80
             ZIndex: =1
 
-        Icon3_2 As icon.ChevronLeft:
+        Icon3_3 As icon.ChevronLeft:
             Color: =RGBA(255, 255, 255, 1)
             DisplayMode: =DisplayMode.View
             Height: =48
@@ -182,7 +182,7 @@ prueba_zonasEstatus As screen:
             Y: =8
             ZIndex: =2
 
-    Button13 As button:
+    Button13_1 As button:
         Color: =RGBA(0, 0, 0, 1)
         DisplayMode: =DisplayMode.View
         Fill: |-
@@ -196,22 +196,22 @@ prueba_zonasEstatus As screen:
         Y: =649
         ZIndex: =21
 
-    Group5 As group:
+    Group5_1 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
         ZIndex: =23
 
-        Image13 As image:
+        Image13_1 As image:
             Height: =58
             Image: ='user icon'
             Width: =90
             Y: =219
             ZIndex: =10
 
-        Label6_3 As label:
-            Color: =RGBA(0, 18, 107, 1)
+        Label6_4 As label:
+            Color: =RGBA(255, 255, 255, 1)
             Font: =Font.'Segoe UI'
             FontWeight: =FontWeight.Semibold
             Height: =44

@@ -1,4 +1,4 @@
-Inicio_prueba2_2 As screen:
+Inicio_fondo As screen:
 
     Button3_2 As button:
         DisplayMode: =DisplayMode.View
