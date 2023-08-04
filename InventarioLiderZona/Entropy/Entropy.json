@@ -8,6 +8,7 @@
     "Button4": 30,
     "Button5": 50,
     "Button6": 49,
+    "Circle1": 97,
     "Circle2": 53,
     "GalleriaZonas": 63,
     "Gallery2": 37,
@@ -28,6 +29,7 @@
     "Image3_3": 75,
     "Image4": 91,
     "Image5": 92,
+    "Image6": 98,
     "Inicio": 4,
     "Label1": 61,
     "Label1_1": 34,
@@ -90,13 +92,14 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/04/2023 14:26:02",
+  "HeaderLastSavedDateTimeUTC": "08/04/2023 14:30:47",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "5db4d5f2-bc5c-41fb-acd3-a21ec8e0169c": "\"/providers/microsoft.powerapps/apis/shared_sql/connections/e772cfcf3b6d4324a4761fb9926074d4\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
+    "carrier_logo": "0c6721a8-baf5-4a19-8c66-019da3c91b6a.jpg",
     "carrier_logo_300": "0001.png",
     "fondo_azul": "6131bf6c-b23f-4610-93a4-043f80acb8b6.jpg",
     "fondo_prueba": "7b4578df-c7d0-483d-8dd9-b14447905db7.gif",
@@ -106,6 +109,7 @@
     "return-button (1)": "0003.png"
   },
   "LocalResourceRootPaths": {
+    "carrier_logo": "https://docserverpwaprodeus.blob.core.windows.net/db8a2b8f-87d2-46e3-b2bd-26585a49ccd8-1/resource/39e17818-f710-4792-849c-1ec7d5a62b18.jpg?sv=2018-03-28&sr=b&sig=5HkDZJY0941s87%2F4o3%2FbTixXOZYW2yyzYsGcpUydMgk%3D&spr=https&se=2023-08-05T14%3A44%3A42Z&sp=r",
     "carrier_logo_300": "https://docserverpwaprodeus.blob.core.windows.net/db8a2b8f-87d2-46e3-b2bd-26585a49ccd8-1/resource/Assets0Images00001.png?sv=2018-03-28&sr=b&sig=4vtD6TglhqTHpiHNNbHZhHxSI0X57T7W11Ro9xR76Y4%3D&spr=https&se=2023-08-05T14%3A24%3A15Z&sp=r",
     "fondo_azul": "https://docserverpwaprodeus.blob.core.windows.net/db8a2b8f-87d2-46e3-b2bd-26585a49ccd8-1/resource/cbdf1481-e205-4568-8091-544a1815de1d.jpg?sv=2018-03-28&sr=b&sig=me9lB%2BhzyR8Y7drwuQNvHiU2afU7R2SlojNzdTkAWOE%3D&spr=https&se=2023-08-05T14%3A35%3A59Z&sp=r",
     "fondo_prueba": "https://docserverpwaprodeus.blob.core.windows.net/db8a2b8f-87d2-46e3-b2bd-26585a49ccd8-1/resource/69d88b83-c0e4-4fd8-9689-70f1510e1c2e.gif?sv=2018-03-28&sr=b&sig=hw%2BvoeFie2BPIey1FQRDs68S0%2Bfx%2BxkrQKZuLh27sKs%3D&spr=https&se=2023-08-05T14%3A28%3A27Z&sp=r",
@@ -142,14 +146,14 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 5,
-    "circle": 7,
-    "gallery": 6,
-    "icon": 3,
+    "button": 6,
+    "circle": 2,
+    "gallery": 7,
+    "icon": 4,
     "image": 0,
-    "label": 2,
+    "label": 3,
     "rectangle": 1,
-    "timer": 4
+    "timer": 5
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -158,6 +162,7 @@
     "Button4": {},
     "Button5": {},
     "Button6": {},
+    "Circle1": {},
     "Circle2": {},
     "GalleriaZonas": {},
     "Gallery2": {},
@@ -178,6 +183,7 @@
     "Image3_3": {},
     "Image4": {},
     "Image5": {},
+    "Image6": {},
     "Inicio": {},
     "Label1": {},
     "Label1_1": {},
@@ -247,6 +253,7 @@
     "Button4": 29,
     "Button5": 41,
     "Button6": 40,
+    "Circle1": 0,
     "Circle2": 44,
     "GalleriaZonas": 62,
     "Gallery2": 36,
@@ -267,6 +274,7 @@
     "Image3_3": 74,
     "Image4": 0,
     "Image5": 0,
+    "Image6": 0,
     "Inicio": 3,
     "Label1": 60,
     "Label1_1": 33,
@@ -328,6 +336,7 @@
     "ZonasEstatus": 70
   },
   "ResourcesJsonIndices": {
+    "Image-carrier_logo": 8,
     "Image-carrier_logo_300": 1,
     "Image-fondo_azul": 7,
     "Image-fondo_prueba": 6,
@@ -350,7 +359,7 @@
       "icon": 5,
       "image": 10,
       "label": 31,
-      "rectangle": 19,
+      "rectangle": 20,
       "screen": 6,
       "timer": 3
     },
