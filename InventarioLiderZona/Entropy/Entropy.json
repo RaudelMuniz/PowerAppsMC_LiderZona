@@ -31,6 +31,7 @@
     "Group3": 117,
     "Group4": 16,
     "Group5_2": 137,
+    "Group7": 140,
     "Host": 3,
     "Icon2": 82,
     "Icon2_1": 49,
@@ -130,7 +131,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/04/2023 21:19:04",
+  "HeaderLastSavedDateTimeUTC": "08/04/2023 21:19:54",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "5db4d5f2-bc5c-41fb-acd3-a21ec8e0169c": "\"/providers/microsoft.powerapps/apis/shared_sql/connections/e772cfcf3b6d4324a4761fb9926074d4\""
@@ -204,6 +205,15 @@
       "Image8_2": 0,
       "Label5_3": 1,
       "Rectangle10_3": 2
+    },
+    "Group7": {
+      "esquina redondeada": 6,
+      "esquina redondeada_1": 5,
+      "Image4_2": 4,
+      "Image5_2": 3,
+      "Image8_1": 0,
+      "Label5_2": 1,
+      "Rectangle10_2": 2
     }
   },
   "OrderPcfTemplate": {},
@@ -248,6 +258,7 @@
     "Group3": {},
     "Group4": {},
     "Group5_2": {},
+    "Group7": {},
     "Host": {},
     "Icon2": {},
     "Icon2_1": {},
@@ -377,6 +388,7 @@
     "Group3": 81,
     "Group4": 74,
     "Group5_2": 96,
+    "Group7": 0,
     "Host": 0,
     "Icon2": 8,
     "Icon2_1": 25,

@@ -9,72 +9,79 @@ Inicio_prueba2_1 As screen:
         Width: =640
         ZIndex: =1
 
-    "'esquina redondeada' As button":
-        DisplayMode: =DisplayMode.View
-        Fill: =RGBA(5, 37, 105, 1)
-        Height: =25
-        Size: =24
-        Text: =""
-        Width: =584
-        X: =27
-        Y: =669
-        ZIndex: =2
+    Group7 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =9
 
-    "'esquina redondeada_1' As button":
-        DisplayMode: =DisplayMode.View
-        Fill: =RGBA(5, 37, 105, 1)
-        Height: =25
-        Size: =24
-        Text: =""
-        Width: =584
-        X: =27
-        Y: =22
-        ZIndex: =3
+        "'esquina redondeada' As button":
+            DisplayMode: =DisplayMode.View
+            Fill: =RGBA(5, 37, 105, 1)
+            Height: =25
+            Size: =24
+            Text: =""
+            Width: =584
+            X: =27
+            Y: =669
+            ZIndex: =2
 
-    Image4_2 As image:
-        Height: =646
-        Image: =fondo_azul
-        ImagePosition: =ImagePosition.Fill
-        Width: =584
-        X: =27
-        Y: =35
-        ZIndex: =4
+        "'esquina redondeada_1' As button":
+            DisplayMode: =DisplayMode.View
+            Fill: =RGBA(5, 37, 105, 1)
+            Height: =25
+            Size: =24
+            Text: =""
+            Width: =584
+            X: =27
+            Y: =22
+            ZIndex: =3
 
-    Image5_2 As image:
-        Fill: =RGBA(227, 9, 9, 0)
-        Height: =645
-        Image: =fondo_prueba
-        ImagePosition: =ImagePosition.Fill
-        Transparency: =0.8
-        Width: =584
-        X: =27
-        Y: =36
-        ZIndex: =5
+        Image4_2 As image:
+            Height: =646
+            Image: =fondo_azul
+            ImagePosition: =ImagePosition.Fill
+            Width: =584
+            X: =27
+            Y: =35
+            ZIndex: =4
 
-    Rectangle10_2 As rectangle:
-        Fill: =RGBA(0, 13, 77, 0.53)
-        Height: =646
-        Width: =584
-        X: =27
-        Y: =35
-        ZIndex: =6
+        Image5_2 As image:
+            Fill: =RGBA(227, 9, 9, 0)
+            Height: =645
+            Image: =fondo_prueba
+            ImagePosition: =ImagePosition.Fill
+            Transparency: =0.8
+            Width: =584
+            X: =27
+            Y: =36
+            ZIndex: =5
 
-    Label5_2 As label:
-        Color: =RGBA(255, 255, 255, 1)
-        Height: =156
-        Size: =38
-        Text: ="Conteo Anual " & Year( Now() )
-        Width: =342
-        X: =46
-        Y: =414
-        ZIndex: =7
+        Rectangle10_2 As rectangle:
+            Fill: =RGBA(0, 13, 77, 0.53)
+            Height: =646
+            Width: =584
+            X: =27
+            Y: =35
+            ZIndex: =6
 
-    Image8_1 As image:
-        Height: =392
-        Image: ='Inv Anual_sin fondo_1'
-        Transparency: =0.8
-        Width: =410
-        X: =212
-        Y: =22
-        ZIndex: =8
+        Label5_2 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =156
+            Size: =38
+            Text: ="Conteo Anual " & Year( Now() )
+            Width: =342
+            X: =46
+            Y: =414
+            ZIndex: =7
+
+        Image8_1 As image:
+            Height: =392
+            Image: ='Inv Anual_sin fondo_1'
+            Transparency: =0.8
+            Width: =410
+            X: =212
+            Y: =22
+            ZIndex: =8
 
