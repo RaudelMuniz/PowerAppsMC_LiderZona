@@ -4,10 +4,10 @@ prueba_zonasEstatus As screen:
     ImagePosition: =ImagePosition.Fill
 
     Image12_1 As image:
-        Height: =585
+        Height: =688
         Image: =cuadro
         ImagePosition: =ImagePosition.Fill
-        Transparency: =0.3
+        Transparency: =0.5
         Width: =640
         Y: =253
         ZIndex: =2
@@ -57,8 +57,8 @@ prueba_zonasEstatus As screen:
         Size: =28
         Text: =GalleriaZonas.Selected.Fase
         Width: =389
-        X: =251
-        Y: =927
+        X: =125
+        Y: =648
         ZIndex: =7
 
     Label7_2 As label:
