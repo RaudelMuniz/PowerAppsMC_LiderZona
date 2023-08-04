@@ -20,7 +20,8 @@ prueba_zonasEstatus As screen:
         Size: =30
         Text: ="Detalle Zona"
         Width: =264
-        X: =188
+        X: =21
+        Y: =103
         ZIndex: =3
 
     Icon2_3 As icon.Reload:
@@ -148,26 +149,26 @@ prueba_zonasEstatus As screen:
         ZIndex: =16
 
     Container2 As groupContainer.manualLayoutContainer:
-        Height: =74
-        Width: =104
+        Height: =64
+        Width: =80
         X: =21
         Y: =10
         ZIndex: =20
 
         Button10 As button:
-            Fill: =RGBA(221, 228, 240, 0.93)
-            Height: =74
+            Fill: =RGBA(166, 166, 166, 0.35)
+            Height: =64
             Size: =24
             Text: =""
-            Width: =104
+            Width: =80
             ZIndex: =1
 
         Icon3_1 As icon.ChevronLeft:
             Color: =RGBA(255, 255, 255, 1)
-            Height: =41
+            Height: =31
             Icon: =Icon.ChevronLeft
-            Width: =46
-            X: =30
-            Y: =15
+            Width: =41
+            X: =15
+            Y: =16
             ZIndex: =2
 
