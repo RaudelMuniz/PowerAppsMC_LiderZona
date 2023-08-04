@@ -1,5 +1,5 @@
 Inicio_prueba2_1 As screen:
-    Fill: =RGBA(237, 237, 237, 0.62)
+    Fill: =RGBA(237, 237, 237, 1)
 
     fondo_blanco_1 As button:
         DisplayMode: =DisplayMode.View
@@ -80,11 +80,11 @@ Inicio_prueba2_1 As screen:
             ZIndex: =7
 
         Image8_1 As image:
-            Height: =392
+            Height: =436
             Image: ='Inv Anual_sin fondo_1'
             Transparency: =0.8
-            Width: =410
-            X: =212
+            Width: =474
+            X: =166
             Y: =22
             ZIndex: =8
 
