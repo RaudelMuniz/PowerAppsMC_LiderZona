@@ -103,36 +103,6 @@ Inicio_prueba2_1 As screen:
         Y: =558
         ZIndex: =10
 
-    Container1 As groupContainer.manualLayoutContainer:
-        DropShadow: =DropShadow.None
-        Height: =92
-        LayoutDirection: =LayoutDirection.Manual
-        LayoutMode: =LayoutMode.Auto
-        RadiusBottomLeft: =0
-        RadiusBottomRight: =0
-        RadiusTopLeft: =0
-        RadiusTopRight: =0
-        X: =66
-        Y: =694
-        ZIndex: =11
-
-        Image8 As image:
-            Height: =92
-            Image: =fondo_azul
-            ImagePosition: =ImagePosition.Fill
-            Width: =500
-            ZIndex: =1
-
-        Button4_2 As button:
-            Color: =RGBA(255, 255, 255, 100)
-            Fill: =RGBA(0, 0, 0, 0)
-            Height: =92
-            OnSelect: =Navigate(ZonaSelector,ScreenTransition.Fade)
-            Size: =24
-            Text: ="Entrar"
-            Width: =500
-            ZIndex: =3
-
     Label15_1 As label:
         Align: =Align.Center
         Color: =RGBA(0, 18, 107, 1)
@@ -175,4 +145,27 @@ Inicio_prueba2_1 As screen:
             X: =175
             Y: =1005
             ZIndex: =14
+
+    Container1 As groupContainer.manualLayoutContainer:
+        Height: =82
+        Width: =473
+        X: =80
+        Y: =689
+        ZIndex: =16
+
+        Image10 As image:
+            Height: =82
+            Image: =fondo_azul
+            ImagePosition: =ImagePosition.Fill
+            Width: =473
+            ZIndex: =1
+
+        Button4_2 As button:
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =82
+            OnSelect: =Navigate(ZonaSelector,ScreenTransition.Fade)
+            Size: =24
+            Text: ="Entrar"
+            Width: =473
+            ZIndex: =2
 
