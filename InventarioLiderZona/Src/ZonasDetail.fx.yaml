@@ -1,8 +1,24 @@
 ZonasDetail As screen:
+    Fill: =RGBA(22, 45, 115, 0.47)
+
+    Button8 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =728
+        RadiusBottomLeft: =20
+        RadiusBottomRight: =20
+        RadiusTopLeft: =20
+        RadiusTopRight: =20
+        Size: =24
+        Text: =""
+        Width: =565
+        X: =40
+        Y: =408
+        ZIndex: =1
 
     Rectangle4_1 As rectangle:
         Fill: =RGBA(21, 44, 115, 1)
-        Height: =84
+        Height: =96
         Width: =640
         ZIndex: =2
 
@@ -43,7 +59,10 @@ ZonasDetail As screen:
         LoadingSpinner: =LoadingSpinner.Data
         TemplatePadding: =0
         TemplateSize: =233
-        Y: =84
+        Visible: =false
+        Width: =567
+        X: =32
+        Y: =148
         ZIndex: =6
 
         Title2 As label:
@@ -78,13 +97,6 @@ ZonasDetail As screen:
             X: =209
             Y: =70
             ZIndex: =3
-
-        Separator2 As rectangle:
-            Height: =8
-            OnSelect: =Select(Parent)
-            Width: =Parent.TemplateWidth
-            Y: =Parent.TemplateHeight - Self.Height
-            ZIndex: =5
 
         Subtitle2_1 As label:
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
@@ -135,6 +147,16 @@ ZonasDetail As screen:
             Y: =11
             ZIndex: =10
 
+        Label12 As label:
+            Height: =70
+            OnSelect: =Select(Parent)
+            Size: =21
+            Text: =ThisItem.Auditor
+            Width: =560
+            X: =7
+            Y: =127
+            ZIndex: =11
+
     Button1 As button:
         DisplayMode: =If(GalleriaZonas.Selected.estatusF1="N/A",DisplayMode.Edit,DisplayMode.Disabled)
         Fill: =RGBA(0, 18, 107, 1)
@@ -157,7 +179,7 @@ ZonasDetail As screen:
         Text: ="Iniciar Check List"
         Width: =304
         X: =168
-        Y: =404
+        Y: =521
         ZIndex: =7
 
     Rectangle6 As rectangle:
@@ -171,7 +193,7 @@ ZonasDetail As screen:
         Fill: =RGBA(21, 44, 115, 1)
         Height: =175
         Width: =640
-        Y: =942
+        Y: =961
         ZIndex: =9
 
     Image3 As image:
@@ -179,7 +201,7 @@ ZonasDetail As screen:
         Image: =carrier_logo_300
         Width: =285
         X: =177
-        Y: =950
+        Y: =969
         ZIndex: =10
 
     Group1 As group:
@@ -198,7 +220,7 @@ ZonasDetail As screen:
             Visible: =If(GalleriaZonas.Selected.estatusF1="N/A",false,true)
             Width: =304
             X: =168
-            Y: =621
+            Y: =738
             ZIndex: =11
 
         Label3 As label:
@@ -209,7 +231,7 @@ ZonasDetail As screen:
             Visible: =If(GalleriaZonas.Selected.estatusF1="N/A",false,true)
             Width: =560
             X: =40
-            Y: =539
+            Y: =656
             ZIndex: =12
 
     Group2 As group:
@@ -295,4 +317,70 @@ ZonasDetail As screen:
             X: =83
             Y: =215
             ZIndex: =17
+
+    Label7 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =2
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =89
+        Size: =21
+        Text: =GalleriaZonas.Selected.no_Zona
+        Width: =219
+        X: =96
+        Y: =283
+        ZIndex: =19
+
+    Label9 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =2
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(56, 96, 178, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =68
+        Size: =27
+        Text: ="Zona"
+        Width: =219
+        X: =96
+        Y: =215
+        ZIndex: =20
+
+    Label10 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =2
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(56, 96, 178, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =68
+        Size: =27
+        Text: ="Estatus"
+        Width: =219
+        X: =315
+        Y: =215
+        ZIndex: =21
+
+    Label11 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =2
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =89
+        Size: =21
+        Text: =GalleriaZonas.Selected.estatusGeneral
+        Width: =219
+        X: =315
+        Y: =283
+        ZIndex: =22
+
+    Label13 As label:
+        Align: =Align.Center
+        FontWeight: =FontWeight.Bold
+        Height: =87
+        Size: =30
+        Text: =GalleriaZonas.Selected.Fase
+        Width: =640
+        Y: =111
+        ZIndex: =23
 

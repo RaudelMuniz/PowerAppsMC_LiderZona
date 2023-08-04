@@ -1,16 +1,26 @@
 ZonaSelector As screen:
+    Fill: =RGBA(22, 45, 115, 0.47)
+
+    Rectangle9 As rectangle:
+        Fill: =RGBA(21, 44, 115, 1)
+        Width: =640
+        Y: =1036
+        ZIndex: =1
 
     "GalleriaZonas As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
-        Height: =858
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =530
         Items: =Filter(MesaControl_Request,correoResponsable=User().Email,estatusF1<>"",Fase<>"Completado")
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
         OnSelect: =If(GalleriaZonas.Selected.estatusF2="Pendiente",Navigate(ZonasEstatus,ScreenTransition.Fade),Navigate(ZonasDetail,ScreenTransition.Fade));
         TemplatePadding: =0
         TemplateSize: =104
-        Y: =277
-        ZIndex: =1
+        Width: =581
+        X: =29
+        Y: =428
+        ZIndex: =3
 
         Title1 As label:
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
@@ -45,23 +55,24 @@ ZonaSelector As screen:
 
         NextArrow1 As icon.ChevronRight:
             AccessibleLabel: =Self.Tooltip
-            Color: =RGBA(166, 166, 166, 1)
-            Height: =50
-            Icon: =Icon.ChevronRight
+            Color: =RGBA(0, 18, 107, 1)
+            Height: =67
+            Icon: =Icon.NextArrow
             OnSelect: =Select(Parent)
             PaddingBottom: =16
             PaddingLeft: =16
             PaddingRight: =16
             PaddingTop: =16
             Tooltip: ="View item details"
-            Width: =50
-            X: =Parent.TemplateWidth - Self.Width - 12
-            Y: =(Parent.TemplateHeight / 2) - (Self.Height / 2)
+            Width: =72
+            X: =497
+            Y: =14
             ZIndex: =4
 
         Separator1 As rectangle:
+            Fill: =RGBA(22, 45, 115, 0.47)
             Height: =8
-            OnSelect: =Select(Parent)
+            OnSelect: =RGBA(22, 45, 115, 0.47)
             Width: =Parent.TemplateWidth
             Y: =Parent.TemplateHeight - Self.Height
             ZIndex: =5
@@ -75,9 +86,9 @@ ZonaSelector As screen:
 
     Rectangle4 As rectangle:
         Fill: =RGBA(21, 44, 115, 1)
-        Height: =84
+        Height: =360
         Width: =640
-        ZIndex: =2
+        ZIndex: =4
 
     Label1 As label:
         Color: =RGBA(255, 255, 255, 1)
@@ -87,13 +98,13 @@ ZonaSelector As screen:
         Text: ="Mis Zonas"
         Width: =209
         X: =215
-        ZIndex: =3
+        ZIndex: =5
 
     Image3_1 As image:
         Height: =84
         Image: =carrier_logo_300
         Width: =118
-        ZIndex: =4
+        ZIndex: =6
 
     Icon2 As icon.Reload:
         Color: =RGBA(255, 255, 255, 1)
@@ -103,7 +114,7 @@ ZonaSelector As screen:
         OnSelect: =Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
         X: =561
         Y: =10
-        ZIndex: =5
+        ZIndex: =7
 
     Timer2 As timer:
         AutoStart: =true
@@ -112,5 +123,30 @@ ZonaSelector As screen:
         Width: =280
         X: =360
         Y: =1066
-        ZIndex: =6
+        ZIndex: =8
+
+    Label5 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =41
+        Size: =21
+        Text: ="Habilitadas"
+        Width: =507
+        X: =29
+        Y: =387
+        ZIndex: =9
+
+    Circle1 As circle:
+        Fill: =RGBA(21, 44, 115, 1)
+        Height: =177
+        Width: =640
+        Y: =959
+        ZIndex: =10
+
+    Image4 As image:
+        Height: =134
+        Image: =carrier_logo_300
+        Width: =249
+        X: =195
+        Y: =980
+        ZIndex: =11
 
