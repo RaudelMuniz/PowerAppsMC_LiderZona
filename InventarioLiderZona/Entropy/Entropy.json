@@ -16,6 +16,7 @@
     "galleryTemplate2": 38,
     "Group1": 56,
     "Group2": 57,
+    "Group3": 100,
     "Host": 3,
     "Icon2": 62,
     "Icon2_1": 35,
@@ -59,6 +60,7 @@
     "NextArrow1": 67,
     "prueba_zonasEstatus": 10,
     "Rectangle1": 65,
+    "Rectangle10": 101,
     "Rectangle2": 80,
     "Rectangle2_1": 17,
     "Rectangle3": 33,
@@ -92,7 +94,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/04/2023 14:30:47",
+  "HeaderLastSavedDateTimeUTC": "08/04/2023 14:34:09",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "5db4d5f2-bc5c-41fb-acd3-a21ec8e0169c": "\"/providers/microsoft.powerapps/apis/shared_sql/connections/e772cfcf3b6d4324a4761fb9926074d4\""
@@ -141,6 +143,11 @@
       "Label2_3": 4,
       "Rectangle3": 0,
       "Rectangle5": 1
+    },
+    "Group3": {
+      "Circle1": 1,
+      "Image6": 0,
+      "Rectangle9_1": 2
     }
   },
   "OrderPcfTemplate": {},
@@ -170,6 +177,7 @@
     "galleryTemplate2": {},
     "Group1": {},
     "Group2": {},
+    "Group3": {},
     "Host": {},
     "Icon2": {},
     "Icon2_1": {},
@@ -213,6 +221,7 @@
     "NextArrow1": {},
     "prueba_zonasEstatus": {},
     "Rectangle1": {},
+    "Rectangle10": {},
     "Rectangle2": {},
     "Rectangle2_1": {},
     "Rectangle3": {},
@@ -261,6 +270,7 @@
     "galleryTemplate2": 49,
     "Group1": 47,
     "Group2": 48,
+    "Group3": 0,
     "Host": 0,
     "Icon2": 61,
     "Icon2_1": 34,
@@ -304,6 +314,7 @@
     "NextArrow1": 67,
     "prueba_zonasEstatus": 9,
     "Rectangle1": 65,
+    "Rectangle10": 0,
     "Rectangle2": 79,
     "Rectangle2_1": 16,
     "Rectangle3": 32,
@@ -359,7 +370,7 @@
       "icon": 5,
       "image": 10,
       "label": 31,
-      "rectangle": 20,
+      "rectangle": 21,
       "screen": 6,
       "timer": 3
     },
