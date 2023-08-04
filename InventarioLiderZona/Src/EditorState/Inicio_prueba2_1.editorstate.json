@@ -533,7 +533,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "esquina redondeada",
-      "ParentIndex": 8,
+      "ParentIndex": 7,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -785,7 +785,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "esquina redondeada_1",
-      "ParentIndex": 0,
+      "ParentIndex": 8,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1037,7 +1037,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "fondo_blanco_1",
-      "ParentIndex": 6,
+      "ParentIndex": 1,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1238,7 +1238,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Group7",
-      "ParentIndex": 10,
+      "ParentIndex": 9,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -1975,7 +1975,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Image8_1",
-      "ParentIndex": 1,
+      "ParentIndex": 5,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2221,14 +2221,7 @@
           "NameMapSourceSchema": "?"
         },
         "Role",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Color",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Color",
         "DisabledColor",
         "PressedColor",
         "HoverColor",
@@ -2242,14 +2235,7 @@
         "DisabledFill",
         "PressedFill",
         "HoverFill",
-        {
-          "AFDDataSourceName": "",
-          "AutoRuleBindingEnabled": false,
-          "AutoRuleBindingString": "",
-          "InvariantPropertyName": "Font",
-          "IsLockable": false,
-          "NameMapSourceSchema": "?"
-        },
+        "Font",
         "FontWeight",
         {
           "AFDDataSourceName": "",
@@ -2288,7 +2274,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label15",
-      "ParentIndex": 7,
+      "ParentIndex": 0,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2578,7 +2564,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Label5_2",
-      "ParentIndex": 5,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
