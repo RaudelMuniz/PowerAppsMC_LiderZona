@@ -95,7 +95,7 @@ Inicio_prueba2_1 As screen:
         Height: =99
         Size: =21
         Text: |-
-            ="Sagittis enim primis eget felis 
+            ="Bienvenido! enim primis eget 
             Lorem ipsum dolor sit
             "
         Width: =473
@@ -105,8 +105,8 @@ Inicio_prueba2_1 As screen:
 
     Container1 As groupContainer.manualLayoutContainer:
         Height: =92
-        X: =65
-        Y: =756
+        X: =66
+        Y: =714
         ZIndex: =11
 
         Image8 As image:
