@@ -132,6 +132,8 @@
     "Screen1",
     "ZonaSelector",
     "ZonasDetail",
-    "ZonasEstatus"
+    "ZonasEstatus",
+    "Inicio",
+    "prueba_zonasEstatus"
   ]
 }
