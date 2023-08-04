@@ -133,10 +133,10 @@
     "ZonaSelector",
     "ZonasDetail",
     "ZonasEstatus",
-    "Inicio",
-    "Inicio_prueba2_1",
+    "Inicio_prueba1",
+    "Inicio_prueba2",
     "Inicio_fondo",
-    "prueba2_zonasEstatus",
-    "prueba_zonasEstatus"
+    "prueba1_zonasEstatus",
+    "prueba2_zonasEstatus"
   ]
 }

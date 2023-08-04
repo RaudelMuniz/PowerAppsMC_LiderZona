@@ -1,4 +1,4 @@
-Inicio_prueba2_1 As screen:
+Inicio_prueba2 As screen:
     Fill: =RGBA(237, 237, 237, 1)
 
     fondo_blanco_1 As button:
@@ -94,10 +94,7 @@ Inicio_prueba2_1 As screen:
         Font: =Font.Verdana
         Height: =99
         Size: =21
-        Text: |-
-            ="Bienvenido! enim primis eget 
-            Lorem ipsum dolor sit
-            "
+        Text: ="Bienvenido! aquí se pone un texto mamalón"
         Width: =473
         X: =80
         Y: =558
@@ -110,7 +107,7 @@ Inicio_prueba2_1 As screen:
         Height: =99
         Size: =16
         Text: |-
-            ="Lorem ipsum dolor sit
+            ="Se pone un texto mamalón
             "
         Width: =473
         X: =82
