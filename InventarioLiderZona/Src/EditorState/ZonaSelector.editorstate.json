@@ -473,7 +473,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "GalleriaZonas",
-      "ParentIndex": 4,
+      "ParentIndex": 6,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
@@ -2760,7 +2760,7 @@
       "LayoutName": "",
       "MetaDataIDKey": "",
       "Name": "Timer2",
-      "ParentIndex": 5,
+      "ParentIndex": 10,
       "PersistMetaDataIDKey": false,
       "Properties": [
         {
