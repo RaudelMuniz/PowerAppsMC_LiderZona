@@ -1,0 +1,14 @@
+Screen2 As screen:
+    BackgroundImage: ='fondo-color-blanco-gris'
+    ImagePosition: =ImagePosition.Fill
+
+    Image12 As image:
+        Height: =433
+        Image: =cuadro
+        ImagePosition: =ImagePosition.Fill
+        Transparency: =0.3
+        Width: =490
+        X: =51
+        Y: =420
+        ZIndex: =3
+
