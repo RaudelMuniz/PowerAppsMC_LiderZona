@@ -156,6 +156,7 @@ prueba_zonasEstatus As screen:
         Button10 As button:
             Fill: =RGBA(166, 166, 166, 0.35)
             Height: =64
+            OnSelect: =Navigate(ZonaSelector,ScreenTransition.Fade)
             Size: =24
             Text: =""
             Width: =80
@@ -180,6 +181,7 @@ prueba_zonasEstatus As screen:
         Button10_1 As button:
             Fill: =RGBA(166, 166, 166, 0.35)
             Height: =64
+            OnSelect: =Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
             Size: =24
             Text: =""
             Width: =80
