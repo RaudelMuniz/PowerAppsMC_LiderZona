@@ -8,7 +8,7 @@ Screen2 As screen:
         ImagePosition: =ImagePosition.Fill
         Transparency: =0.3
         Width: =490
-        X: =51
-        Y: =420
+        X: =105
+        Y: =216
         ZIndex: =3
 
