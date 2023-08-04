@@ -104,7 +104,14 @@ Inicio_prueba2_1 As screen:
         ZIndex: =10
 
     Container1 As groupContainer.manualLayoutContainer:
+        DropShadow: =DropShadow.None
         Height: =92
+        LayoutDirection: =LayoutDirection.Manual
+        LayoutMode: =LayoutMode.Auto
+        RadiusBottomLeft: =0
+        RadiusBottomRight: =0
+        RadiusTopLeft: =0
+        RadiusTopRight: =0
         X: =66
         Y: =694
         ZIndex: =11
