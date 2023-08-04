@@ -4,7 +4,7 @@ Inicio_prueba2_1 As screen:
     fondo_blanco_1 As button:
         DisplayMode: =DisplayMode.View
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =287
+        Height: =379
         Size: =24
         Text: =""
         Width: =539
@@ -90,13 +90,38 @@ Inicio_prueba2_1 As screen:
 
     Label15 As label:
         Align: =Align.Center
+        Color: =RGBA(0, 18, 107, 1)
+        Font: =Font.Verdana
         Height: =99
         Size: =21
         Text: |-
-            ="Lorem ipsum dolor sit 
-            Sagittis enim primis eget felis "
+            ="Sagittis enim primis eget felis 
+            Lorem ipsum dolor sit
+            "
         Width: =473
         X: =80
         Y: =558
         ZIndex: =10
+
+    Container1 As groupContainer.manualLayoutContainer:
+        Height: =91
+        X: =69
+        Y: =714
+        ZIndex: =12
+
+        Image10 As image:
+            Height: =91
+            Image: =fondo_azul
+            ImagePosition: =ImagePosition.Fill
+            Width: =500
+            ZIndex: =1
+
+        Button4_3 As button:
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =92
+            OnSelect: =Navigate(ZonaSelector,ScreenTransition.Fade)
+            Size: =24
+            Text: ="Entrar"
+            Width: =498
+            ZIndex: =2
 
