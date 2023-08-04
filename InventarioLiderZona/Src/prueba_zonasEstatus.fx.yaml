@@ -17,9 +17,9 @@ prueba_zonasEstatus As screen:
         Color: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Bold
         Height: =84
-        Size: =30
+        Size: =35
         Text: ="Detalle Zona"
-        Width: =264
+        Width: =424
         X: =21
         Y: =103
         ZIndex: =3
