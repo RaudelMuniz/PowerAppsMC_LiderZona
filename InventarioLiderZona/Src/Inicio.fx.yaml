@@ -2,9 +2,17 @@ Inicio As screen:
 
     Image4 As image:
         Height: =1136
+        Image: =fondo_azul
+        ImagePosition: =ImagePosition.Fill
+        Width: =640
+        ZIndex: =3
+
+    Image5 As image:
+        Fill: =RGBA(227, 9, 9, 0)
+        Height: =1136
         Image: =fondo_prueba
         ImagePosition: =ImagePosition.Fill
-        Transparency: =0.5
+        Transparency: =0.8
         Width: =640
-        ZIndex: =1
+        ZIndex: =4
 
