@@ -112,7 +112,7 @@
     "InstrumentationKey": "",
     "LocalDatabaseReferences": "{}",
     "ManualOfflineProfileId": "",
-    "Name": "Inventario+MC+L%25c3%25adder+Zona.msapp",
+    "Name": "Inventario MC Líder Zona",
     "OriginatingVersion": "1.333",
     "ParserErrorCount": 0,
     "ShowStatusBar": false
@@ -134,6 +134,8 @@
     "ZonasDetail",
     "ZonasEstatus",
     "Inicio",
+    "Inicio_prueba2_1",
+    "Inicio_prueba2_2",
     "prueba_zonasEstatus"
   ]
 }

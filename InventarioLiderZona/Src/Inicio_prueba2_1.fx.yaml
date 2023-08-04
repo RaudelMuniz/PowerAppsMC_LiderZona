@@ -1,0 +1,102 @@
+Inicio_prueba2_1 As screen:
+    Fill: =RGBA(237, 237, 237, 0.62)
+
+    fondo_blanco_1 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =287
+        Size: =24
+        Text: =""
+        Width: =539
+        X: =46
+        Y: =538
+        ZIndex: =9
+
+    Group7 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =9
+
+        "'esquina redondeada' As button":
+            DisplayMode: =DisplayMode.View
+            Fill: =RGBA(5, 37, 105, 1)
+            Height: =25
+            Size: =24
+            Text: =""
+            Width: =584
+            X: =27
+            Y: =669
+            ZIndex: =2
+
+        "'esquina redondeada_1' As button":
+            DisplayMode: =DisplayMode.View
+            Fill: =RGBA(5, 37, 105, 1)
+            Height: =25
+            Size: =24
+            Text: =""
+            Width: =584
+            X: =27
+            Y: =22
+            ZIndex: =3
+
+        Image4_2 As image:
+            Height: =646
+            Image: =fondo_azul
+            ImagePosition: =ImagePosition.Fill
+            Width: =584
+            X: =27
+            Y: =35
+            ZIndex: =4
+
+        Image5_2 As image:
+            Fill: =RGBA(227, 9, 9, 0)
+            Height: =645
+            Image: =fondo_prueba
+            ImagePosition: =ImagePosition.Fill
+            Transparency: =0.8
+            Width: =584
+            X: =27
+            Y: =36
+            ZIndex: =5
+
+        Rectangle10_2 As rectangle:
+            Fill: =RGBA(0, 13, 77, 0.53)
+            Height: =646
+            Width: =584
+            X: =27
+            Y: =35
+            ZIndex: =6
+
+        Label5_2 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =156
+            Size: =38
+            Text: ="Conteo Anual " & Year( Now() )
+            Width: =342
+            X: =46
+            Y: =360
+            ZIndex: =7
+
+        Image8_1 As image:
+            Height: =392
+            Image: ='Inv Anual_sin fondo_1'
+            Transparency: =0.8
+            Width: =410
+            X: =212
+            Y: =22
+            ZIndex: =8
+
+    Label15 As label:
+        Align: =Align.Center
+        Height: =99
+        Size: =21
+        Text: |-
+            ="Lorem ipsum dolor sit 
+            Sagittis enim primis eget felis "
+        Width: =473
+        X: =80
+        Y: =558
+        ZIndex: =10
+

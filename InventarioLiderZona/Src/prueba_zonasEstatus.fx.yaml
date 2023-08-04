@@ -1,5 +1,5 @@
 prueba_zonasEstatus As screen:
-    Fill: =RGBA(56, 96, 178, 1)
+    Fill: =RGBA(0, 0, 0, 0)
 
     Rectangle2_1 As rectangle:
         BorderColor: =RGBA(56, 96, 178, 1)

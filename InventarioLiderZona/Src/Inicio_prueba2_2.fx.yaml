@@ -1,0 +1,77 @@
+Inicio_prueba2_2 As screen:
+
+    Button3_2 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =1136
+        Size: =24
+        Text: =""
+        Width: =640
+        ZIndex: =1
+
+    Button9_2 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(0, 18, 107, 1)
+        Height: =31
+        Size: =24
+        Text: =""
+        Width: =64
+        X: =27
+        Y: =651
+        ZIndex: =7
+
+    Group5_2 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =12
+
+        Image4_3 As image:
+            Height: =664
+            Image: =fondo_azul
+            ImagePosition: =ImagePosition.Fill
+            Width: =584
+            X: =27
+            Y: =18
+            ZIndex: =2
+
+        Image5_3 As image:
+            Fill: =RGBA(227, 9, 9, 0)
+            Height: =663
+            Image: =fondo_prueba
+            ImagePosition: =ImagePosition.Fill
+            Transparency: =0.8
+            Width: =584
+            X: =27
+            Y: =19
+            ZIndex: =3
+
+        Rectangle10_3 As rectangle:
+            Fill: =RGBA(0, 13, 77, 0.53)
+            Height: =664
+            Width: =584
+            X: =27
+            Y: =18
+            ZIndex: =4
+
+        Label5_3 As label:
+            Align: =Align.Center
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =57
+            Size: =35
+            Text: ="Conteo Anual " & Year( Now() )
+            Width: =424
+            X: =63
+            Y: =217
+            ZIndex: =5
+
+        Image8_2 As image:
+            Height: =338
+            Image: ='Inv Anual_sin fondo_1'
+            Transparency: =0.8
+            Width: =584
+            X: =27
+            Y: =22
+            ZIndex: =6
+
