@@ -28,6 +28,17 @@ Inicio As screen:
         Width: =640
         ZIndex: =4
 
+    Label5 As label:
+        Align: =Align.Center
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =98
+        Size: =35
+        Text: ="Conteo Anual " & Year( Now() )
+        Width: =465
+        X: =87
+        Y: =55
+        ZIndex: =8
+
     Group3 As group:
         Height: =5
         Width: =5
