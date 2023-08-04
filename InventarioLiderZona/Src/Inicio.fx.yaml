@@ -52,6 +52,13 @@ Inicio As screen:
         Y: =85
         ZIndex: =12
 
+    Circle3 As circle:
+        Fill: =RGBA(21, 44, 115, 1)
+        Height: =132
+        Width: =640
+        Y: =960
+        ZIndex: =13
+
     Group3 As group:
         Height: =5
         Width: =5
@@ -65,13 +72,6 @@ Inicio As screen:
             Width: =640
             Y: =1029
             ZIndex: =10
-
-        Circle3 As circle:
-            Fill: =RGBA(21, 44, 115, 1)
-            Height: =132
-            Width: =640
-            Y: =960
-            ZIndex: =13
 
         Image6 As image:
             Height: =187
