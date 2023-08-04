@@ -106,7 +106,7 @@ Inicio_prueba2_1 As screen:
     Container1 As groupContainer.manualLayoutContainer:
         Height: =92
         X: =66
-        Y: =714
+        Y: =694
         ZIndex: =11
 
         Image8 As image:
@@ -125,6 +125,20 @@ Inicio_prueba2_1 As screen:
             Text: ="Entrar"
             Width: =500
             ZIndex: =3
+
+    Label15_1 As label:
+        Align: =Align.Center
+        Color: =RGBA(0, 18, 107, 1)
+        Font: =Font.Verdana
+        Height: =99
+        Size: =16
+        Text: |-
+            ="Lorem ipsum dolor sit
+            "
+        Width: =473
+        X: =82
+        Y: =815
+        ZIndex: =15
 
     Group3_1 As group:
         Height: =5
