@@ -1,26 +1,10 @@
 Inicio As screen:
 
-    Rectangle7_1 As rectangle:
-        Fill: =RGBA(21, 44, 115, 1)
-        Height: =234
-        Width: =640
-        ZIndex: =2
-
-    Button4_1 As button:
-        Fill: =RGBA(21, 44, 115, 1)
-        Height: =92
-        OnSelect: =Navigate(ZonaSelector,ScreenTransition.Fade)
-        Size: =24
-        Text: ="Entrar"
-        Width: =328
-        X: =159
-        Y: =860
-        ZIndex: =3
-
     Image4 As image:
-        Height: =320
-        Width: =320
-        X: =159
-        Y: =403
-        ZIndex: =6
+        Height: =1136
+        Image: =fondo_prueba
+        ImagePosition: =ImagePosition.Fill
+        Transparency: =0.5
+        Width: =640
+        ZIndex: =1
 
