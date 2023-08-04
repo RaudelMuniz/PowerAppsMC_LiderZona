@@ -126,3 +126,32 @@ Inicio_prueba2_1 As screen:
             Width: =500
             ZIndex: =3
 
+    Group3_1 As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =15
+
+        Rectangle9_2 As rectangle:
+            Fill: =RGBA(21, 44, 115, 1)
+            Height: =81
+            Width: =640
+            Y: =1048
+            ZIndex: =12
+
+        Circle3_1 As circle:
+            Fill: =RGBA(21, 44, 115, 1)
+            Height: =86
+            Width: =640
+            Y: =1005
+            ZIndex: =13
+
+        Image6_1 As image:
+            Height: =131
+            Image: =carrier_logo
+            Width: =282
+            X: =175
+            Y: =1005
+            ZIndex: =14
+
