@@ -61,17 +61,6 @@ prueba_zonasEstatus As screen:
         Y: =927
         ZIndex: =7
 
-    Label6_4 As label:
-        Align: =Align.Center
-        Height: =70
-        Live: =Live.Polite
-        Size: =21
-        Text: =If(GalleriaZonas.Selected.Capturista="N/A","No Hay Capturista Asignado",GalleriaZonas.Selected.Capturista)
-        Width: =561
-        X: =46
-        Y: =814
-        ZIndex: =8
-
     Label6_5 As label:
         Align: =Align.Center
         Height: =72
@@ -157,6 +146,29 @@ prueba_zonasEstatus As screen:
         X: =1
         Y: =219
         ZIndex: =19
+
+    Container3 As groupContainer.manualLayoutContainer:
+        Height: =59
+        Width: =252
+        X: =286
+        Y: =458
+        ZIndex: =20
+
+        Image14 As image:
+            Height: =73
+            Image: =azul
+            ImagePosition: =ImagePosition.Fill
+            Width: =318
+            ZIndex: =1
+
+        Button11 As button:
+            DisplayMode: =DisplayMode.View
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =58
+            Size: =20
+            Text: =If(GalleriaZonas.Selected.Capturista="N/A","No Hay Capturista Asignado",GalleriaZonas.Selected.Capturista)
+            Width: =250
+            ZIndex: =2
 
     Group5 As group:
         Height: =5
