@@ -17,7 +17,7 @@ Inicio As screen:
         ZIndex: =2
 
     Rectangle8 As rectangle:
-        Fill: =RGBA(0, 18, 107, 0.53)
+        Fill: =RGBA(0, 15, 92, 0.53)
         Height: =1136
         Width: =640
         ZIndex: =3
