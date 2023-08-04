@@ -80,11 +80,11 @@ Inicio_prueba2_1 As screen:
             ZIndex: =7
 
         Image8_1 As image:
-            Height: =436
+            Height: =516
             Image: ='Inv Anual_sin fondo_1'
             Transparency: =0.8
-            Width: =474
-            X: =166
+            Width: =594
+            X: =46
             Y: =22
             ZIndex: =8
 
