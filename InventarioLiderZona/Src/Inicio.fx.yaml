@@ -16,18 +16,11 @@ Inicio As screen:
         Width: =640
         ZIndex: =2
 
-    Button4_1 As button:
-        Color: =RGBA(0, 18, 107, 1)
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =87
-        HoverFill: =ColorFade(RGBA(0, 18, 117, 1), -20%)
-        OnSelect: =Navigate(ZonaSelector,ScreenTransition.Fade)
-        Size: =24
-        Text: ="Entrar"
-        Width: =305
-        X: =167
-        Y: =755
-        ZIndex: =5
+    Rectangle8 As rectangle:
+        Fill: =RGBA(0, 18, 107, 0.53)
+        Height: =1136
+        Width: =640
+        ZIndex: =3
 
     Group3 As group:
         Height: =5
@@ -41,7 +34,7 @@ Inicio As screen:
             Height: =103
             Width: =640
             Y: =1029
-            ZIndex: =3
+            ZIndex: =10
 
         Image6 As image:
             Height: =187
@@ -49,7 +42,20 @@ Inicio As screen:
             Width: =391
             X: =117
             Y: =949
-            ZIndex: =4
+            ZIndex: =11
+
+    Button4_1 As button:
+        Color: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =87
+        HoverFill: =ColorFade(RGBA(0, 18, 117, 1), -20%)
+        OnSelect: =Navigate(ZonaSelector,ScreenTransition.Fade)
+        Size: =24
+        Text: ="Entrar"
+        Width: =305
+        X: =167
+        Y: =755
+        ZIndex: =9
 
     Group4 As group:
         Height: =5
@@ -62,19 +68,19 @@ Inicio As screen:
             Fill: =RGBA(255, 255, 255, 1)
             X: =204
             Y: =312
-            ZIndex: =6
+            ZIndex: =4
 
         blanco1_1 As rectangle:
             Fill: =RGBA(255, 255, 255, 1)
             X: =340
             Y: =312
-            ZIndex: =7
+            ZIndex: =5
 
         blanco1_2 As rectangle:
             Fill: =RGBA(255, 255, 255, 1)
             X: =340
             Y: =468
-            ZIndex: =8
+            ZIndex: =6
 
         Button7 As button:
             DisplayMode: =DisplayMode.View
@@ -85,7 +91,7 @@ Inicio As screen:
             Width: =192
             X: =102
             Y: =423
-            ZIndex: =9
+            ZIndex: =7
 
         Image7 As image:
             Height: =490
@@ -93,5 +99,5 @@ Inicio As screen:
             Width: =480
             X: =72
             Y: =219
-            ZIndex: =10
+            ZIndex: =8
 
