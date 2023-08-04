@@ -172,6 +172,14 @@ prueba_zonasEstatus As screen:
             Y: =16
             ZIndex: =2
 
+    Rectangle11 As rectangle:
+        Fill: =RGBA(221, 228, 240, 1)
+        Height: =3
+        Width: =405
+        X: =1
+        Y: =219
+        ZIndex: =23
+
     Group5 As group:
         Height: =5
         Width: =5
@@ -183,18 +191,18 @@ prueba_zonasEstatus As screen:
             Height: =88
             Image: ='user icon'
             Width: =84
-            X: =21
             Y: =219
             ZIndex: =21
 
         Label6_3 As label:
             Color: =RGBA(255, 255, 255, 1)
+            Font: =Font.'Segoe UI'
             FontWeight: =FontWeight.Semibold
             Height: =67
             Size: =19
             Text: =GalleriaZonas.Selected.Responsable
             Width: =500
-            X: =97
-            Y: =230
+            X: =64
+            Y: =229
             ZIndex: =22
 
