@@ -8,9 +8,8 @@ prueba3_zonasEstatus As screen:
         Image: =cuadro
         ImagePosition: =ImagePosition.Fill
         Transparency: =0.5
-        Width: =597
-        X: =21
-        Y: =253
+        Width: =640
+        Y: =295
         ZIndex: =2
 
     Label1_5 As label:
@@ -20,8 +19,8 @@ prueba3_zonasEstatus As screen:
         Size: =35
         Text: ="Detalle Zona"
         Width: =424
-        X: =21
-        Y: =150
+        X: =33
+        Y: =144
         ZIndex: =3
 
     Label9_5 As label:
@@ -32,7 +31,7 @@ prueba3_zonasEstatus As screen:
         Text: ="Estatus Zona " & GalleriaZonas.Selected.no_Zona
         Width: =437
         X: =101
-        Y: =335
+        Y: =377
         ZIndex: =4
 
     Label7_7 As label:
@@ -42,7 +41,7 @@ prueba3_zonasEstatus As screen:
         Text: ="Capturista"
         Width: =199
         X: =104
-        Y: =451
+        Y: =493
         ZIndex: =5
 
     Label7_8 As label:
@@ -52,7 +51,7 @@ prueba3_zonasEstatus As screen:
         Text: ="Auditor"
         Width: =142
         X: =109
-        Y: =524
+        Y: =566
         ZIndex: =6
 
     Label8_3 As label:
@@ -63,7 +62,7 @@ prueba3_zonasEstatus As screen:
         Text: ="*Actualizacion cada minuto "
         Width: =518
         X: =101
-        Y: =394
+        Y: =436
         ZIndex: =7
 
     Timer1_3 As timer:
@@ -81,7 +80,7 @@ prueba3_zonasEstatus As screen:
         Height: =59
         Width: =252
         X: =286
-        Y: =458
+        Y: =500
         ZIndex: =12
 
         Image14_2 As image:
@@ -104,7 +103,7 @@ prueba3_zonasEstatus As screen:
         Height: =59
         Width: =252
         X: =286
-        Y: =532
+        Y: =574
         ZIndex: =13
 
         Image16_2 As image:
@@ -134,7 +133,7 @@ prueba3_zonasEstatus As screen:
         Text: =GalleriaZonas.Selected.Fase
         Width: =410
         X: =115
-        Y: =649
+        Y: =691
         ZIndex: =14
 
     Container2_4 As groupContainer.manualLayoutContainer:
@@ -218,30 +217,37 @@ prueba3_zonasEstatus As screen:
             Y: =1005
             ZIndex: =19
 
-    Group5_3 As group:
+    Group6_1 As group:
         Height: =5
         Width: =5
-        X: =40
-        Y: =40
-        ZIndex: =23
+        X: =20
+        Y: =20
+        ZIndex: =22
 
-        Image13_2 As image:
-            Height: =58
+        Image13_4 As image:
+            Height: =82
             Image: ='user icon'
-            Width: =90
-            Y: =219
-            ZIndex: =9
+            Width: =87
+            X: =38
+            Y: =215
+            ZIndex: =20
 
-        Label6_5 As label:
+        Label6_7 As label:
             Color: =RGBA(255, 255, 255, 1)
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Semibold
-            Height: =44
+            Height: =49
             Size: =19
-            Text: |-
-                ="Responsable: "& GalleriaZonas.Selected.Responsable
+            Text: =GalleriaZonas.Selected.Responsable
             Width: =500
-            X: =64
-            Y: =219
-            ZIndex: =10
+            X: =101
+            Y: =239
+            ZIndex: =21
+
+        Label16_1 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Size: =14
+            Text: ="RESPONSABLE"
+            Width: =239
+            X: =101
+            Y: =215
+            ZIndex: =23
 
