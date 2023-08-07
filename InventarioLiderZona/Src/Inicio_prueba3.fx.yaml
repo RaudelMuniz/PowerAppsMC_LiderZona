@@ -33,7 +33,7 @@ Inicio_prueba3 As screen:
 
         "'esquina redondeada_3' As button":
             DisplayMode: =DisplayMode.View
-            Fill: =RGBA(5, 37, 105, 1)
+            Fill: =RGBA(0, 41, 64, 1)
             Height: =25
             Size: =24
             Text: =""
@@ -44,7 +44,7 @@ Inicio_prueba3 As screen:
 
         "'esquina redondeada_2' As button":
             DisplayMode: =DisplayMode.View
-            Fill: =RGBA(5, 37, 105, 1)
+            Fill: =RGBA(0, 94, 146, 1)
             Height: =25
             Size: =24
             Text: =""
