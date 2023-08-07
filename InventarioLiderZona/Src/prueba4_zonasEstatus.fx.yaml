@@ -3,9 +3,10 @@ prueba4_zonasEstatus As screen:
     Fill: =RGBA(237, 237, 237, 1)
     ImagePosition: =ImagePosition.Fill
 
-    Rectangle13 As rectangle:
-        Fill: =RGBA(0, 18, 107, 1)
+    Image8 As image:
         Height: =451
+        Image: =fondo_azul
+        ImagePosition: =ImagePosition.Fill
         Width: =640
         ZIndex: =1
 
@@ -14,30 +15,32 @@ prueba4_zonasEstatus As screen:
         Image: =cuadro_blanco
         ImagePosition: =ImagePosition.Fill
         Width: =640
-        Y: =253
-        ZIndex: =2
+        Y: =297
+        ZIndex: =3
 
     Label1_6 As label:
         Color: =RGBA(255, 255, 255, 1)
+        Font: =Font.Verdana
         FontWeight: =FontWeight.Bold
         Height: =84
-        Size: =35
+        Size: =37
         Text: ="Detalle Zona"
         Width: =424
-        X: =21
-        Y: =150
-        ZIndex: =3
+        X: =33
+        Y: =145
+        ZIndex: =4
 
     Label9_6 As label:
         BorderColor: =RGBA(255, 255, 255, 1)
+        Font: =Font.Verdana
         FontWeight: =FontWeight.Bold
         Height: =80
-        Size: =25
+        Size: =27
         Text: ="Estatus Zona " & GalleriaZonas.Selected.no_Zona
         Width: =437
         X: =101
-        Y: =335
-        ZIndex: =4
+        Y: =379
+        ZIndex: =5
 
     Label7_9 As label:
         FontWeight: =FontWeight.Bold
@@ -46,8 +49,8 @@ prueba4_zonasEstatus As screen:
         Text: ="Capturista"
         Width: =199
         X: =104
-        Y: =451
-        ZIndex: =5
+        Y: =495
+        ZIndex: =6
 
     Label7_10 As label:
         FontWeight: =FontWeight.Bold
@@ -56,8 +59,8 @@ prueba4_zonasEstatus As screen:
         Text: ="Auditor"
         Width: =142
         X: =109
-        Y: =524
-        ZIndex: =6
+        Y: =568
+        ZIndex: =7
 
     Label8_4 As label:
         Color: =RGBA(116, 116, 116, 1)
@@ -67,8 +70,8 @@ prueba4_zonasEstatus As screen:
         Text: ="*Actualizacion cada minuto "
         Width: =518
         X: =101
-        Y: =394
-        ZIndex: =7
+        Y: =438
+        ZIndex: =8
 
     Timer1_4 As timer:
         AutoStart: =true
@@ -79,14 +82,14 @@ prueba4_zonasEstatus As screen:
         Width: =234
         X: =406
         Y: =1078
-        ZIndex: =8
+        ZIndex: =9
 
     Container3_3 As groupContainer.manualLayoutContainer:
         Height: =59
         Width: =252
         X: =286
-        Y: =458
-        ZIndex: =11
+        Y: =502
+        ZIndex: =12
 
         Image14_3 As image:
             Height: =59
@@ -108,8 +111,8 @@ prueba4_zonasEstatus As screen:
         Height: =59
         Width: =252
         X: =286
-        Y: =532
-        ZIndex: =12
+        Y: =576
+        ZIndex: =13
 
         Image16_3 As image:
             Height: =59
@@ -133,20 +136,22 @@ prueba4_zonasEstatus As screen:
         Fill: |-
             =If(GalleriaZonas.Selected.Fase="Sin Comenzar",RGBA(255, 255, 255, 1),
             If(GalleriaZonas.Selected.Fase="Zona Liberada",RGBA(102, 255, 0, 1),RGBA(255, 255, 0, 1)))
+        Font: =Font.Verdana
+        FontWeight: =FontWeight.Normal
         Height: =168
         Size: =26
         Text: =GalleriaZonas.Selected.Fase
         Width: =410
         X: =115
-        Y: =649
-        ZIndex: =13
+        Y: =693
+        ZIndex: =14
 
     Container2_6 As groupContainer.manualLayoutContainer:
         Height: =64
         Width: =80
         X: =21
         Y: =13
-        ZIndex: =14
+        ZIndex: =15
 
         Button10_6 As button:
             Fill: =RGBA(166, 166, 166, 0.35)
@@ -172,7 +177,7 @@ prueba4_zonasEstatus As screen:
         Width: =80
         X: =538
         Y: =13
-        ZIndex: =15
+        ZIndex: =16
 
         Button10_7 As button:
             Fill: =RGBA(166, 166, 166, 0.35)
@@ -205,14 +210,14 @@ prueba4_zonasEstatus As screen:
             Height: =88
             Width: =640
             Y: =1048
-            ZIndex: =16
+            ZIndex: =17
 
         Circle3_3 As circle:
             Fill: =RGBA(21, 44, 115, 1)
             Height: =86
             Width: =640
             Y: =1005
-            ZIndex: =17
+            ZIndex: =18
 
         Image6_5 As image:
             Height: =131
@@ -220,7 +225,7 @@ prueba4_zonasEstatus As screen:
             Width: =282
             X: =175
             Y: =1005
-            ZIndex: =18
+            ZIndex: =19
 
     Group5_4 As group:
         Height: =5
@@ -230,22 +235,22 @@ prueba4_zonasEstatus As screen:
         ZIndex: =23
 
         Image13_3 As image:
-            Height: =58
+            Height: =74
             Image: ='user icon'
-            Width: =90
-            Y: =219
-            ZIndex: =9
+            Width: =87
+            X: =21
+            Y: =198
+            ZIndex: =10
 
         Label6_6 As label:
             Color: =RGBA(255, 255, 255, 1)
-            Font: =Font.'Segoe UI'
-            FontWeight: =FontWeight.Semibold
+            Font: =Font.Verdana
             Height: =44
             Size: =19
             Text: |-
                 ="Responsable: "& GalleriaZonas.Selected.Responsable
             Width: =500
-            X: =64
-            Y: =219
-            ZIndex: =10
+            X: =85
+            Y: =214
+            ZIndex: =11
 
