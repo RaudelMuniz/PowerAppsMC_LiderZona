@@ -227,30 +227,39 @@ prueba4_zonasEstatus As screen:
             Y: =1005
             ZIndex: =19
 
-    Group5_4 As group:
+    Group6 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
-        ZIndex: =23
+        ZIndex: =21
 
         Image13_3 As image:
-            Height: =74
+            Height: =101
             Image: ='user icon'
             Width: =87
             X: =21
-            Y: =198
+            Y: =214
             ZIndex: =10
 
         Label6_6 As label:
             Color: =RGBA(255, 255, 255, 1)
             Font: =Font.Verdana
-            Height: =44
+            Height: =60
             Size: =19
-            Text: |-
-                ="Responsable: "& GalleriaZonas.Selected.Responsable
+            Text: =GalleriaZonas.Selected.Responsable
             Width: =500
             X: =85
-            Y: =214
+            Y: =236
             ZIndex: =11
+
+        Label16 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =49
+            Size: =16
+            Text: ="RESPONSABLE"
+            Width: =239
+            X: =84
+            Y: =214
+            ZIndex: =20
 
