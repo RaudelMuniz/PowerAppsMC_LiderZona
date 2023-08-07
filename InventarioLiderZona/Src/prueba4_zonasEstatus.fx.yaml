@@ -93,7 +93,7 @@ prueba4_zonasEstatus As screen:
 
         Image14_3 As image:
             Height: =59
-            Image: =azul
+            Image: =fondo_azul
             ImagePosition: =ImagePosition.Fill
             Width: =252
             ZIndex: =1
@@ -116,7 +116,7 @@ prueba4_zonasEstatus As screen:
 
         Image16_3 As image:
             Height: =59
-            Image: =azul
+            Image: =fondo_azul
             ImagePosition: =ImagePosition.Fill
             Width: =252
             ZIndex: =1
