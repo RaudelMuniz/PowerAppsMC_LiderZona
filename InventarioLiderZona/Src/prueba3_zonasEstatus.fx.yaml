@@ -1,9 +1,9 @@
-prueba1_zonasEstatus As screen:
-    BackgroundImage: ='fondo-color-blanco-gris'
-    Fill: =RGBA(0, 0, 0, 0)
+prueba3_zonasEstatus As screen:
+    BackgroundImage: =fondo_azul
+    Fill: =RGBA(237, 237, 237, 1)
     ImagePosition: =ImagePosition.Fill
 
-    Image12_2 As image:
+    Image12_3 As image:
         Height: =688
         Image: =cuadro
         ImagePosition: =ImagePosition.Fill
@@ -11,9 +11,9 @@ prueba1_zonasEstatus As screen:
         Width: =597
         X: =21
         Y: =253
-        ZIndex: =1
+        ZIndex: =2
 
-    Label1_4 As label:
+    Label1_5 As label:
         Color: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Bold
         Height: =84
@@ -22,9 +22,9 @@ prueba1_zonasEstatus As screen:
         Width: =424
         X: =21
         Y: =150
-        ZIndex: =2
+        ZIndex: =3
 
-    Label9_4 As label:
+    Label9_5 As label:
         BorderColor: =RGBA(255, 255, 255, 1)
         FontWeight: =FontWeight.Bold
         Height: =80
@@ -35,7 +35,7 @@ prueba1_zonasEstatus As screen:
         Y: =335
         ZIndex: =4
 
-    Label7_5 As label:
+    Label7_7 As label:
         FontWeight: =FontWeight.Bold
         Height: =74
         Size: =20
@@ -43,9 +43,9 @@ prueba1_zonasEstatus As screen:
         Width: =199
         X: =104
         Y: =451
-        ZIndex: =6
+        ZIndex: =5
 
-    Label7_6 As label:
+    Label7_8 As label:
         FontWeight: =FontWeight.Bold
         Height: =74
         Size: =20
@@ -53,10 +53,10 @@ prueba1_zonasEstatus As screen:
         Width: =142
         X: =109
         Y: =524
-        ZIndex: =7
+        ZIndex: =6
 
-    Label8_2 As label:
-        Color: =RGBA(128, 128, 128, 1)
+    Label8_3 As label:
+        Color: =RGBA(255, 255, 255, 1)
         Height: =25
         Italic: =true
         Size: =15
@@ -64,9 +64,9 @@ prueba1_zonasEstatus As screen:
         Width: =518
         X: =101
         Y: =394
-        ZIndex: =8
+        ZIndex: =7
 
-    Timer1_2 As timer:
+    Timer1_3 As timer:
         AutoStart: =true
         Height: =57
         OnTimerStart: =Refresh(MesaControl_Request)
@@ -75,23 +75,23 @@ prueba1_zonasEstatus As screen:
         Width: =234
         X: =406
         Y: =1078
-        ZIndex: =9
+        ZIndex: =8
 
-    Container3_1 As groupContainer.manualLayoutContainer:
+    Container3_2 As groupContainer.manualLayoutContainer:
         Height: =59
         Width: =252
         X: =286
         Y: =458
-        ZIndex: =13
+        ZIndex: =12
 
-        Image14_1 As image:
+        Image14_2 As image:
             Height: =59
             Image: =azul
             ImagePosition: =ImagePosition.Fill
             Width: =252
             ZIndex: =1
 
-        Button11_1 As button:
+        Button11_2 As button:
             DisplayMode: =DisplayMode.View
             Fill: =RGBA(0, 0, 0, 0)
             Height: =59
@@ -100,21 +100,21 @@ prueba1_zonasEstatus As screen:
             Width: =252
             ZIndex: =2
 
-    Container4_1 As groupContainer.manualLayoutContainer:
+    Container4_2 As groupContainer.manualLayoutContainer:
         Height: =59
         Width: =252
         X: =286
         Y: =532
-        ZIndex: =14
+        ZIndex: =13
 
-        Image16_1 As image:
+        Image16_2 As image:
             Height: =59
             Image: =azul
             ImagePosition: =ImagePosition.Fill
             Width: =252
             ZIndex: =1
 
-        Button12_1 As button:
+        Button12_2 As button:
             DisplayMode: =DisplayMode.View
             Fill: =RGBA(0, 0, 0, 0)
             Height: =58
@@ -123,59 +123,7 @@ prueba1_zonasEstatus As screen:
             Width: =247
             ZIndex: =2
 
-    Container2_3 As groupContainer.manualLayoutContainer:
-        Height: =64
-        Width: =80
-        X: =21
-        Y: =13
-        ZIndex: =19
-
-        Button10_3 As button:
-            Fill: =RGBA(166, 166, 166, 0.35)
-            Height: =64
-            OnSelect: =Navigate(ZonaSelector,ScreenTransition.Fade)
-            Size: =24
-            Text: =""
-            Width: =80
-            ZIndex: =1
-
-        Icon3_4 As icon.ChevronLeft:
-            Color: =RGBA(255, 255, 255, 1)
-            DisplayMode: =DisplayMode.View
-            Height: =31
-            Icon: =Icon.ChevronLeft
-            Width: =41
-            X: =15
-            Y: =16
-            ZIndex: =2
-
-    Container2_2 As groupContainer.manualLayoutContainer:
-        Height: =64
-        Width: =80
-        X: =538
-        Y: =13
-        ZIndex: =20
-
-        Button10_2 As button:
-            Fill: =RGBA(166, 166, 166, 0.35)
-            Height: =64
-            OnSelect: =Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
-            Size: =24
-            Text: =""
-            Width: =80
-            ZIndex: =1
-
-        Icon3_3 As icon.ChevronLeft:
-            Color: =RGBA(255, 255, 255, 1)
-            DisplayMode: =DisplayMode.View
-            Height: =48
-            Icon: =Icon.Reload
-            Width: =50
-            X: =15
-            Y: =8
-            ZIndex: =2
-
-    Button13_1 As button:
+    Button13_2 As button:
         Color: =RGBA(0, 0, 0, 1)
         DisplayMode: =DisplayMode.View
         Fill: |-
@@ -187,23 +135,104 @@ prueba1_zonasEstatus As screen:
         Width: =410
         X: =115
         Y: =649
-        ZIndex: =21
+        ZIndex: =14
 
-    Group5_1 As group:
+    Container2_4 As groupContainer.manualLayoutContainer:
+        Height: =64
+        Width: =80
+        X: =21
+        Y: =13
+        ZIndex: =15
+
+        Button10_4 As button:
+            Fill: =RGBA(166, 166, 166, 0.35)
+            Height: =64
+            OnSelect: =Navigate(ZonaSelector,ScreenTransition.Fade)
+            Size: =24
+            Text: =""
+            Width: =80
+            ZIndex: =1
+
+        Icon3_5 As icon.ChevronLeft:
+            Color: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.View
+            Height: =31
+            Icon: =Icon.ChevronLeft
+            Width: =41
+            X: =15
+            Y: =16
+            ZIndex: =2
+
+    Container2_5 As groupContainer.manualLayoutContainer:
+        Height: =64
+        Width: =80
+        X: =538
+        Y: =13
+        ZIndex: =16
+
+        Button10_5 As button:
+            Fill: =RGBA(166, 166, 166, 0.35)
+            Height: =64
+            OnSelect: =Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
+            Size: =24
+            Text: =""
+            Width: =80
+            ZIndex: =1
+
+        Icon3_6 As icon.ChevronLeft:
+            Color: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.View
+            Height: =48
+            Icon: =Icon.Reload
+            Width: =50
+            X: =15
+            Y: =8
+            ZIndex: =2
+
+    Group3_2 As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =20
+
+        Rectangle9_3 As rectangle:
+            Fill: =RGBA(21, 44, 115, 1)
+            Height: =88
+            Width: =640
+            Y: =1048
+            ZIndex: =17
+
+        Circle3_2 As circle:
+            Fill: =RGBA(21, 44, 115, 1)
+            Height: =86
+            Width: =640
+            Y: =1005
+            ZIndex: =18
+
+        Image6_2 As image:
+            Height: =131
+            Image: =carrier_logo
+            Width: =282
+            X: =175
+            Y: =1005
+            ZIndex: =19
+
+    Group5_3 As group:
         Height: =5
         Width: =5
         X: =40
         Y: =40
         ZIndex: =23
 
-        Image13_1 As image:
+        Image13_2 As image:
             Height: =58
             Image: ='user icon'
             Width: =90
             Y: =219
-            ZIndex: =10
+            ZIndex: =9
 
-        Label6_4 As label:
+        Label6_5 As label:
             Color: =RGBA(255, 255, 255, 1)
             Font: =Font.'Segoe UI'
             FontWeight: =FontWeight.Semibold
@@ -214,13 +243,5 @@ prueba1_zonasEstatus As screen:
             Width: =500
             X: =64
             Y: =219
-            ZIndex: =11
-
-    Image6_3 As image:
-        Height: =131
-        Image: =carrier_logo
-        Width: =282
-        X: =175
-        Y: =1005
-        ZIndex: =24
+            ZIndex: =10
 
