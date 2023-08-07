@@ -91,16 +91,12 @@ prueba4_zonasEstatus As screen:
         Y: =502
         ZIndex: =14
 
-        Image14_3 As image:
-            Height: =59
-            Image: =fondo_azul
-            ImagePosition: =ImagePosition.Fill
-            Width: =252
-            ZIndex: =1
-
         Button11_3 As button:
+            Color: =RGBA(0, 18, 107, 1)
             DisplayMode: =DisplayMode.View
             Fill: =RGBA(0, 0, 0, 0)
+            Font: =Font.Verdana
+            FontWeight: =FontWeight.Normal
             Height: =59
             Size: =20
             Text: =If(GalleriaZonas.Selected.Capturista="N/A","No Hay Capturista Asignado",GalleriaZonas.Selected.Capturista)
@@ -114,16 +110,12 @@ prueba4_zonasEstatus As screen:
         Y: =576
         ZIndex: =15
 
-        Image16_3 As image:
-            Height: =59
-            Image: =fondo_azul
-            ImagePosition: =ImagePosition.Fill
-            Width: =252
-            ZIndex: =1
-
         Button12_3 As button:
+            Color: =RGBA(0, 18, 107, 1)
             DisplayMode: =DisplayMode.View
             Fill: =RGBA(0, 0, 0, 0)
+            Font: =Font.Verdana
+            FontWeight: =FontWeight.Normal
             Height: =58
             Size: =20
             Text: =If(GalleriaZonas.Selected.Auditor="N/A","No Hay Auditor Asignado",GalleriaZonas.Selected.Auditor)
