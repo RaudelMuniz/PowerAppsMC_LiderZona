@@ -388,8 +388,8 @@ ZonasDetail As screen:
         Height: =72
         Size: =25
         Text: =GalleriaZonas.Selected.Fase
-        Width: =276
-        X: =185
+        Width: =600
+        X: =22
         Y: =225
         ZIndex: =25
 
