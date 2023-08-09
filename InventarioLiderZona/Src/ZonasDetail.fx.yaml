@@ -40,25 +40,6 @@ ZonasDetail As screen:
         X: =188
         ZIndex: =4
 
-    Image3_2 As image:
-        Height: =52
-        Image: ='return-button (1)'
-        OnSelect: =Back()
-        Width: =72
-        X: =25
-        Y: =16
-        ZIndex: =5
-
-    Icon2_1 As icon.Reload:
-        Color: =RGBA(255, 255, 255, 1)
-        DisplayMode: |
-            =DisplayMode.Edit
-        Icon: =Icon.Reload
-        OnSelect: =Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
-        X: =563
-        Y: =10
-        ZIndex: =6
-
     "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
         Height: =273
@@ -384,4 +365,56 @@ ZonasDetail As screen:
         Width: =640
         Y: =409
         ZIndex: =23
+
+    Container2_12 As groupContainer.manualLayoutContainer:
+        Height: =64
+        Width: =80
+        X: =538
+        Y: =13
+        ZIndex: =24
+
+        Button10_12 As button:
+            Fill: =RGBA(237, 237, 237, 0.51)
+            Height: =64
+            OnSelect: =Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
+            Size: =24
+            Text: =""
+            Width: =80
+            ZIndex: =1
+
+        Icon3_13 As icon.ChevronLeft:
+            Color: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.View
+            Height: =48
+            Icon: =Icon.Reload
+            Width: =50
+            X: =15
+            Y: =8
+            ZIndex: =2
+
+    Container2_13 As groupContainer.manualLayoutContainer:
+        Height: =64
+        Width: =80
+        X: =16
+        Y: =10
+        ZIndex: =25
+
+        Button10_13 As button:
+            Fill: =RGBA(237, 237, 237, 0.51)
+            Height: =64
+            OnSelect: =Navigate(ZonaSelector,ScreenTransition.Fade)
+            Size: =24
+            Text: =""
+            Width: =80
+            ZIndex: =1
+
+        Icon3_14 As icon.ChevronLeft:
+            Color: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.View
+            Height: =31
+            Icon: =Icon.ChevronLeft
+            Width: =41
+            X: =15
+            Y: =16
+            ZIndex: =2
 
