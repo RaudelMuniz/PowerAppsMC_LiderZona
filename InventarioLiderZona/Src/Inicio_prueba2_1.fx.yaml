@@ -1,0 +1,157 @@
+Inicio_prueba2_1 As screen:
+    Fill: =RGBA(237, 237, 237, 1)
+
+    fondo_blanco_4 As button:
+        DisplayMode: =DisplayMode.View
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =379
+        Size: =24
+        Text: =""
+        Width: =539
+        X: =46
+        Y: =538
+        ZIndex: =5
+
+    Label15_4 As label:
+        Align: =Align.Center
+        Color: =RGBA(0, 18, 107, 1)
+        Font: =Font.Verdana
+        Height: =99
+        Size: =21
+        Text: ="Bienvenido! aquí se pone un texto mamalón"
+        Width: =473
+        X: =80
+        Y: =558
+        ZIndex: =6
+
+    Group7_2 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =9
+
+        "'esquina redondeada_5' As button":
+            DisplayMode: =DisplayMode.View
+            Fill: =RGBA(5, 37, 105, 1)
+            Height: =25
+            Size: =24
+            Text: =""
+            Width: =584
+            X: =27
+            Y: =669
+            ZIndex: =1
+
+        "'esquina redondeada_4' As button":
+            DisplayMode: =DisplayMode.View
+            Fill: =RGBA(5, 37, 105, 1)
+            Height: =25
+            Size: =24
+            Text: =""
+            Width: =584
+            X: =27
+            Y: =22
+            ZIndex: =2
+
+        Image4_6 As image:
+            Height: =646
+            Image: =fondo_azul
+            ImagePosition: =ImagePosition.Fill
+            Width: =584
+            X: =27
+            Y: =35
+            ZIndex: =3
+
+        Rectangle10_5 As rectangle:
+            Fill: =RGBA(0, 13, 77, 0.53)
+            Height: =646
+            Width: =584
+            X: =27
+            Y: =35
+            ZIndex: =4
+
+        Image8_6 As image:
+            Height: =516
+            Image: ='Inv Anual_sin fondo_1'
+            Transparency: =0.8
+            Width: =594
+            X: =46
+            Y: =22
+            ZIndex: =13
+
+        Label5_5 As label:
+            Color: =RGBA(255, 255, 255, 1)
+            Height: =156
+            Size: =38
+            Text: ="Conteo Anual " & Year( Now() )
+            Width: =342
+            X: =46
+            Y: =360
+            ZIndex: =14
+
+    Label15_5 As label:
+        Align: =Align.Center
+        Color: =RGBA(0, 18, 107, 1)
+        Font: =Font.Verdana
+        Height: =99
+        Size: =16
+        Text: |-
+            ="Se pone un texto mamalón
+            "
+        Width: =473
+        X: =82
+        Y: =815
+        ZIndex: =10
+
+    Container1_2 As groupContainer.manualLayoutContainer:
+        Height: =82
+        Width: =473
+        X: =80
+        Y: =689
+        ZIndex: =11
+
+        Image10_2 As image:
+            Height: =82
+            Image: =fondo_azul
+            ImagePosition: =ImagePosition.Fill
+            Width: =473
+            ZIndex: =1
+
+        Button4_4 As button:
+            Fill: =RGBA(0, 0, 0, 0)
+            Height: =82
+            OnSelect: =Navigate(ZonaSelector,ScreenTransition.Fade)
+            Size: =24
+            Text: ="Entrar"
+            Width: =473
+            ZIndex: =2
+
+    Group3_6 As group:
+        Height: =5
+        Width: =5
+        X: =60
+        Y: =60
+        ZIndex: =15
+
+        Rectangle9_7 As rectangle:
+            Fill: =RGBA(21, 44, 115, 1)
+            Height: =88
+            Width: =640
+            Y: =1048
+            ZIndex: =7
+
+        Circle3_6 As circle:
+            Fill: =RGBA(21, 44, 115, 1)
+            Height: =86
+            Width: =640
+            Y: =1005
+            ZIndex: =8
+
+        Image6_6 As image:
+            Height: =131
+            Image: =carrier_logo
+            Width: =282
+            X: =175
+            Y: =1005
+            ZIndex: =9
+
