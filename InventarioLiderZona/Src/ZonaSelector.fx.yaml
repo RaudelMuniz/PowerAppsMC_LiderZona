@@ -92,8 +92,8 @@ ZonaSelector As screen:
         OnSelect: =If(GalleriaZonas.Selected.estatusF2="Pendiente",Navigate(prueba1_zonasEstatus,ScreenTransition.Fade),Navigate(ZonasDetail,ScreenTransition.Fade));
         TemplatePadding: =0
         TemplateSize: =104
-        Width: =559
-        X: =40
+        Width: =558
+        X: =39
         Y: =428
         ZIndex: =9
 
