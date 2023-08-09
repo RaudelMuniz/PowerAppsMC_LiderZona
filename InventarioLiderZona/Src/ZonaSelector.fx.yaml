@@ -24,10 +24,58 @@ ZonaSelector As screen:
         Width: =640
         ZIndex: =3
 
+    Rectangle11 As rectangle:
+        Fill: =RGBA(0, 18, 107, 0.31)
+        Height: =541
+        Width: =640
+        ZIndex: =4
+
+    Image3_1 As image:
+        Height: =67
+        Image: =carrier_logo_300
+        Width: =118
+        ZIndex: =5
+
+    Label1 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =84
+        Size: =30
+        Text: ="Mis Zonas"
+        Width: =209
+        X: =215
+        ZIndex: =6
+
+    Container2_14 As groupContainer.manualLayoutContainer:
+        Height: =64
+        Width: =80
+        X: =538
+        Y: =13
+        ZIndex: =7
+
+        Button10_14 As button:
+            Fill: =RGBA(166, 166, 166, 0.35)
+            Height: =64
+            OnSelect: =Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
+            Size: =24
+            Text: =""
+            Width: =80
+            ZIndex: =1
+
+        Icon3_15 As icon.ChevronLeft:
+            Color: =RGBA(255, 255, 255, 1)
+            DisplayMode: =DisplayMode.View
+            Height: =48
+            Icon: =Icon.Reload
+            Width: =50
+            X: =15
+            Y: =8
+            ZIndex: =2
+
     Button3 As button:
         DisplayMode: =DisplayMode.View
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =749
+        Height: =561
         RadiusBottomLeft: =15
         RadiusBottomRight: =15
         RadiusTopLeft: =15
@@ -37,12 +85,12 @@ ZonaSelector As screen:
         Width: =581
         X: =29
         Y: =387
-        ZIndex: =4
+        ZIndex: =8
 
     "GalleriaZonas As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =531
+        Height: =708
         Items: =Filter(MesaControl_Request,correoResponsable=User().Email,estatusF1<>"",Fase<>"Completado")
         Layout: =Layout.Vertical
         LoadingSpinner: =LoadingSpinner.Data
@@ -52,7 +100,7 @@ ZonaSelector As screen:
         Width: =581
         X: =29
         Y: =428
-        ZIndex: =5
+        ZIndex: =9
 
         Title1 As label:
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
@@ -125,21 +173,21 @@ ZonaSelector As screen:
         Width: =559
         X: =40
         Y: =387
-        ZIndex: =6
+        ZIndex: =10
 
     Rectangle9 As rectangle:
         Fill: =RGBA(21, 44, 115, 1)
         Height: =88
         Width: =640
         Y: =1048
-        ZIndex: =7
+        ZIndex: =11
 
     Circle1 As circle:
         Fill: =RGBA(21, 44, 115, 1)
         Height: =98
         Width: =640
         Y: =1002
-        ZIndex: =8
+        ZIndex: =12
 
     Image4 As image:
         Height: =134
@@ -147,52 +195,5 @@ ZonaSelector As screen:
         Width: =249
         X: =195
         Y: =1002
-        ZIndex: =9
-
-    Rectangle11 As rectangle:
-        Fill: =RGBA(0, 18, 107, 0.31)
-        Width: =640
-        ZIndex: =10
-
-    Image3_1 As image:
-        Height: =67
-        Image: =carrier_logo_300
-        Width: =118
-        ZIndex: =11
-
-    Label1 As label:
-        Color: =RGBA(255, 255, 255, 1)
-        FontWeight: =FontWeight.Bold
-        Height: =84
-        Size: =30
-        Text: ="Mis Zonas"
-        Width: =209
-        X: =215
         ZIndex: =13
-
-    Container2_14 As groupContainer.manualLayoutContainer:
-        Height: =64
-        Width: =80
-        X: =538
-        Y: =13
-        ZIndex: =14
-
-        Button10_14 As button:
-            Fill: =RGBA(166, 166, 166, 0.35)
-            Height: =64
-            OnSelect: =Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
-            Size: =24
-            Text: =""
-            Width: =80
-            ZIndex: =1
-
-        Icon3_15 As icon.ChevronLeft:
-            Color: =RGBA(255, 255, 255, 1)
-            DisplayMode: =DisplayMode.View
-            Height: =48
-            Icon: =Icon.Reload
-            Width: =50
-            X: =15
-            Y: =8
-            ZIndex: =2
 
