@@ -370,12 +370,14 @@ ZonasDetail As screen:
 
     Label13 As label:
         Align: =Align.Center
-        FontWeight: =FontWeight.Bold
-        Height: =87
-        Size: =30
+        Color: =RGBA(0, 18, 107, 1)
+        Font: =Font.Verdana
+        Height: =72
+        Size: =25
         Text: =GalleriaZonas.Selected.Fase
-        Width: =640
-        Y: =215
+        Width: =442
+        X: =101
+        Y: =230
         ZIndex: =23
 
     Group5 As group:
@@ -387,40 +389,37 @@ ZonasDetail As screen:
 
         Label7 As label:
             Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 1)
-            BorderThickness: =2
+            BorderThickness: =0.5
             Fill: =RGBA(255, 255, 255, 1)
-            Height: =67
+            Height: =73
             Size: =21
             Text: =GalleriaZonas.Selected.no_Zona
-            Width: =255
-            X: =71
-            Y: =367
+            Width: =266
+            X: =60
+            Y: =361
             ZIndex: =19
 
         Label9 As label:
             Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 1)
-            BorderThickness: =2
+            BorderThickness: =0.5
             Color: =RGBA(255, 255, 255, 1)
             Fill: =RGBA(40, 70, 130, 1)
-            FontWeight: =FontWeight.Semibold
-            Height: =68
+            FontWeight: =FontWeight.Bold
+            Height: =62
             Size: =25
             Text: ="Zona"
-            Width: =255
-            X: =71
+            Width: =266
+            X: =60
             Y: =299
             ZIndex: =20
 
         Label10 As label:
             Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 1)
-            BorderThickness: =2
+            BorderThickness: =0.5
             Color: =RGBA(255, 255, 255, 1)
             Fill: =RGBA(40, 70, 130, 1)
-            FontWeight: =FontWeight.Semibold
-            Height: =68
+            FontWeight: =FontWeight.Bold
+            Height: =62
             Size: =25
             Text: ="Estatus"
             Width: =261
@@ -430,14 +429,13 @@ ZonasDetail As screen:
 
         Label11 As label:
             Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 1)
-            BorderThickness: =2
+            BorderThickness: =0.5
             Fill: =RGBA(255, 255, 255, 1)
-            Height: =67
+            Height: =73
             Size: =21
             Text: =GalleriaZonas.Selected.estatusGeneral
             Width: =261
             X: =326
-            Y: =367
+            Y: =361
             ZIndex: =22
 
