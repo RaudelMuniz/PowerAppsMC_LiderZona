@@ -54,7 +54,7 @@ ZonaSelector As screen:
         ZIndex: =7
 
         Button10_14 As button:
-            Fill: =RGBA(166, 166, 166, 0.35)
+            Fill: =RGBA(136, 160, 209, 0.51)
             Height: =64
             OnSelect: =Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
             Size: =24
