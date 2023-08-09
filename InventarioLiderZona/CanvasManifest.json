@@ -129,16 +129,16 @@
     "UserLocale": "en-US"
   },
   "ScreenOrder": [
-    "Screen1",
+    "Inicio_prueba2",
     "ZonaSelector",
     "ZonasDetail",
+    "prueba1_zonasEstatus",
+    "Screen1",
     "ZonasEstatus",
     "Inicio_prueba1",
-    "Inicio_prueba2",
     "Inicio_prueba2_1",
     "Inicio_prueba3",
     "Inicio_fondo",
-    "prueba1_zonasEstatus",
     "prueba2_zonasEstatus",
     "prueba3_zonasEstatus",
     "prueba4_zonasEstatus"
