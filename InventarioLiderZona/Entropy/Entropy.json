@@ -293,7 +293,6 @@
     "Rectangle4_3": 285,
     "Rectangle5": 24,
     "Rectangle5_1": 304,
-    "Rectangle6": 38,
     "Rectangle6_1": 318,
     "Rectangle7": 264,
     "Rectangle8": 195,
@@ -328,7 +327,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/09/2023 17:09:22",
+  "HeaderLastSavedDateTimeUTC": "08/09/2023 17:10:55",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "5db4d5f2-bc5c-41fb-acd3-a21ec8e0169c": "\"/providers/microsoft.powerapps/apis/shared_sql/connections/e772cfcf3b6d4324a4761fb9926074d4\""
@@ -831,7 +830,6 @@
     "Rectangle4_3": {},
     "Rectangle5": {},
     "Rectangle5_1": {},
-    "Rectangle6": {},
     "Rectangle6_1": {},
     "Rectangle7": {},
     "Rectangle8": {},
@@ -1158,7 +1156,6 @@
     "Rectangle4_3": 114,
     "Rectangle5": 61,
     "Rectangle5_1": 134,
-    "Rectangle6": 80,
     "Rectangle6_1": 149,
     "Rectangle7": 111,
     "Rectangle8": 168,
