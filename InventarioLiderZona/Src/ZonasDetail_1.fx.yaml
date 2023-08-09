@@ -1,10 +1,10 @@
-ZonasDetail As screen:
+ZonasDetail_1 As screen:
     Fill: =RGBA(237, 237, 237, 1)
 
-    Button8 As button:
+    Button8_1 As button:
         DisplayMode: =DisplayMode.View
         Fill: =RGBA(255, 255, 255, 1)
-        Height: =553
+        Height: =728
         RadiusBottomLeft: =20
         RadiusBottomRight: =20
         RadiusTopLeft: =20
@@ -13,24 +13,34 @@ ZonasDetail As screen:
         Text: =""
         Width: =565
         X: =40
-        Y: =582
+        Y: =408
         ZIndex: =1
 
-    Rectangle4_1 As rectangle:
+    Rectangle4_3 As rectangle:
         Fill: =RGBA(21, 44, 115, 1)
-        Height: =275
+        Height: =389
         Width: =640
         ZIndex: =2
 
-    Image14 As image:
-        Height: =275
+    Image14_1 As image:
+        Height: =389
         Image: ='22178590_2112.w039.n003.55B.p1.55'
         ImagePosition: =ImagePosition.Stretch
         Transparency: =0.5
         Width: =640
         ZIndex: =3
 
-    "Gallery2 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
+    Label1_3 As label:
+        Color: =RGBA(255, 255, 255, 1)
+        FontWeight: =FontWeight.Bold
+        Height: =84
+        Size: =30
+        Text: ="Detalle Zona"
+        Width: =264
+        X: =188
+        ZIndex: =4
+
+    "Gallery2_1 As gallery.'BrowseLayout_Vertical_TwoTextOneImageVariant_ver5.0'":
         DelayItemLoading: =true
         Height: =273
         Items: =GalleriaZonas.Selected
@@ -40,10 +50,11 @@ ZonasDetail As screen:
         TemplateSize: =233
         Visible: =false
         Width: =567
-        X: =46
-        ZIndex: =4
+        X: =40
+        Y: =116
+        ZIndex: =7
 
-        Title2 As label:
+        Title2_1 As label:
             Color: =RGBA(0, 0, 0, 1)
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
             Height: =28
@@ -60,7 +71,7 @@ ZonasDetail As screen:
             Y: =19
             ZIndex: =2
 
-        Subtitle2 As label:
+        Subtitle2_2 As label:
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
             Height: =29
             OnSelect: =Select(Parent)
@@ -76,7 +87,7 @@ ZonasDetail As screen:
             Y: =70
             ZIndex: =3
 
-        Subtitle2_1 As label:
+        Subtitle2_3 As label:
             FontWeight: =If(ThisItem.IsSelected, FontWeight.Semibold, FontWeight.Normal)
             Height: =36
             OnSelect: =Select(Parent)
@@ -92,7 +103,7 @@ ZonasDetail As screen:
             Y: =122
             ZIndex: =7
 
-        Label2 As label:
+        Label2_5 As label:
             Height: =43
             OnSelect: =Select(Parent)
             Size: =21
@@ -103,7 +114,7 @@ ZonasDetail As screen:
             Y: =63
             ZIndex: =8
 
-        Label2_1 As label:
+        Label2_6 As label:
             Height: =43
             OnSelect: =Select(Parent)
             Size: =21
@@ -114,7 +125,7 @@ ZonasDetail As screen:
             Y: =115
             ZIndex: =9
 
-        Label2_2 As label:
+        Label2_4 As label:
             Height: =43
             OnSelect: =Select(Parent)
             Size: =21
@@ -125,7 +136,7 @@ ZonasDetail As screen:
             Y: =11
             ZIndex: =10
 
-        Label12 As label:
+        Label12_1 As label:
             Height: =70
             OnSelect: =Select(Parent)
             Size: =21
@@ -135,7 +146,7 @@ ZonasDetail As screen:
             Y: =127
             ZIndex: =11
 
-    Button1 As button:
+    Button1_1 As button:
         DisplayMode: =If(GalleriaZonas.Selected.estatusF1="N/A",DisplayMode.Edit,DisplayMode.Disabled)
         Fill: =RGBA(0, 18, 107, 1)
         Height: =96
@@ -158,31 +169,31 @@ ZonasDetail As screen:
         Width: =304
         X: =168
         Y: =728
-        ZIndex: =5
+        ZIndex: =8
 
-    Rectangle6 As rectangle:
+    Rectangle6_1 As rectangle:
         Fill: =RGBA(21, 44, 115, 1)
         Height: =47
         Width: =640
         Y: =1088
-        ZIndex: =6
+        ZIndex: =9
 
-    Image3 As image:
+    Image3_1 As image:
         Height: =71
         Image: =carrier_logo_300
         Width: =218
         X: =211
         Y: =1065
-        ZIndex: =7
+        ZIndex: =11
 
-    Group1 As group:
+    Group1_1 As group:
         Height: =5
         Width: =5
         X: =60
         Y: =60
         ZIndex: =13
 
-        Button2 As button:
+        Button2_1 As button:
             DisplayMode: =If(GalleriaZonas.Selected.estatusF2="Pendiente",DisplayMode.Disabled,DisplayMode.Edit)
             Height: =87
             OnSelect: =Set(popUpLiderZona,true)
@@ -192,9 +203,9 @@ ZonasDetail As screen:
             Width: =304
             X: =168
             Y: =918
-            ZIndex: =8
+            ZIndex: =12
 
-        Label3 As label:
+        Label3_1 As label:
             Align: =Align.Center
             Height: =70
             Size: =21
@@ -203,102 +214,23 @@ ZonasDetail As screen:
             Width: =560
             X: =40
             Y: =836
-            ZIndex: =9
+            ZIndex: =13
 
-    Container2_12 As groupContainer.manualLayoutContainer:
-        Height: =64
-        Width: =80
-        X: =538
-        Y: =13
-        ZIndex: =15
-
-        Button10_12 As button:
-            Fill: =RGBA(237, 237, 237, 0.51)
-            Height: =64
-            OnSelect: =Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
-            Size: =24
-            Text: =""
-            Width: =80
-            ZIndex: =1
-
-        Icon3_13 As icon.ChevronLeft:
-            Color: =RGBA(255, 255, 255, 1)
-            DisplayMode: =DisplayMode.View
-            Height: =48
-            Icon: =Icon.Reload
-            Width: =50
-            X: =15
-            Y: =8
-            ZIndex: =2
-
-    Container2_13 As groupContainer.manualLayoutContainer:
-        Height: =64
-        Width: =80
-        X: =16
-        Y: =10
-        ZIndex: =16
-
-        Button10_13 As button:
-            Fill: =RGBA(237, 237, 237, 0.51)
-            Height: =64
-            OnSelect: =Navigate(ZonaSelector,ScreenTransition.Fade)
-            Size: =24
-            Text: =""
-            Width: =80
-            ZIndex: =1
-
-        Icon3_14 As icon.ChevronLeft:
-            Color: =RGBA(255, 255, 255, 1)
-            DisplayMode: =DisplayMode.View
-            Height: =31
-            Icon: =Icon.ChevronLeft
-            Width: =41
-            X: =15
-            Y: =16
-            ZIndex: =2
-
-    Label1_10 As label:
-        Color: =RGBA(255, 255, 255, 1)
-        Font: =Font.Verdana
-        FontWeight: =FontWeight.Bold
-        Height: =84
-        Size: =37
-        Text: ="Detalle Zona"
-        Width: =424
-        X: =40
-        Y: =104
-        ZIndex: =17
-
-    Button8_2 As button:
-        DisplayMode: =DisplayMode.View
-        Fill: =RGBA(255, 255, 255, 1)
-        Height: =237
-        RadiusBottomLeft: =20
-        RadiusBottomRight: =20
-        RadiusTopLeft: =20
-        RadiusTopRight: =20
-        Size: =24
-        Text: =""
-        Width: =565
-        X: =40
-        Y: =230
-        ZIndex: =18
-
-    Group2 As group:
+    Group2_1 As group:
         Height: =5
         Width: =5
         X: =80
         Y: =80
         ZIndex: =18
 
-        Rectangle3 As rectangle:
+        Rectangle3_3 As rectangle:
             Fill: =RGBA(56, 96, 178, 0.5)
             Height: =1136
             Visible: =popUpLiderZona
             Width: =640
-            ZIndex: =10
+            ZIndex: =14
 
-        Rectangle5 As rectangle:
+        Rectangle5_1 As rectangle:
             BorderThickness: =1
             Fill: =RGBA(255, 255, 255, 1)
             Height: =352
@@ -306,9 +238,9 @@ ZonasDetail As screen:
             Width: =540
             X: =60
             Y: =198
-            ZIndex: =11
+            ZIndex: =15
 
-        Button5 As button:
+        Button5_1 As button:
             DisabledColor: =RGBA(0, 0, 0, 1)
             Fill: =RGBA(54, 176, 75, 1)
             Height: =85
@@ -338,9 +270,9 @@ ZonasDetail As screen:
             Width: =214
             X: =349
             Y: =422
-            ZIndex: =12
+            ZIndex: =16
 
-        Button6 As button:
+        Button6_1 As button:
             Fill: =RGBA(255, 191, 0, 1)
             Height: =85
             HoverColor: =RGBA(0, 0, 0, 1)
@@ -354,9 +286,9 @@ ZonasDetail As screen:
             Width: =214
             X: =85
             Y: =422
-            ZIndex: =13
+            ZIndex: =17
 
-        Label2_3 As label:
+        Label2_7 As label:
             Align: =Align.Center
             FontWeight: =FontWeight.Bold
             Height: =193
@@ -366,78 +298,123 @@ ZonasDetail As screen:
             Width: =493
             X: =83
             Y: =215
-            ZIndex: =14
+            ZIndex: =18
 
-    Label13 As label:
+    Label7_2 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =2
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =89
+        Size: =21
+        Text: =GalleriaZonas.Selected.no_Zona
+        Width: =219
+        X: =96
+        Y: =580
+        ZIndex: =19
+
+    Label9_3 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =2
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(56, 96, 178, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =68
+        Size: =27
+        Text: ="Zona"
+        Width: =219
+        X: =96
+        Y: =512
+        ZIndex: =20
+
+    Label10_1 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =2
+        Color: =RGBA(255, 255, 255, 1)
+        Fill: =RGBA(56, 96, 178, 1)
+        FontWeight: =FontWeight.Semibold
+        Height: =68
+        Size: =27
+        Text: ="Estatus"
+        Width: =219
+        X: =315
+        Y: =512
+        ZIndex: =21
+
+    Label11_1 As label:
+        Align: =Align.Center
+        BorderColor: =RGBA(0, 0, 0, 1)
+        BorderThickness: =2
+        Fill: =RGBA(255, 255, 255, 1)
+        Height: =89
+        Size: =21
+        Text: =GalleriaZonas.Selected.estatusGeneral
+        Width: =219
+        X: =315
+        Y: =580
+        ZIndex: =22
+
+    Label13_1 As label:
         Align: =Align.Center
         FontWeight: =FontWeight.Bold
         Height: =87
         Size: =30
         Text: =GalleriaZonas.Selected.Fase
         Width: =640
-        Y: =215
+        Y: =409
         ZIndex: =23
 
-    Group5 As group:
-        Height: =5
-        Width: =5
-        X: =80
-        Y: =80
-        ZIndex: =28
+    Container2_16 As groupContainer.manualLayoutContainer:
+        Height: =64
+        Width: =80
+        X: =538
+        Y: =13
+        ZIndex: =24
 
-        Label7 As label:
-            Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 1)
-            BorderThickness: =2
-            Fill: =RGBA(255, 255, 255, 1)
-            Height: =67
-            Size: =21
-            Text: =GalleriaZonas.Selected.no_Zona
-            Width: =255
-            X: =71
-            Y: =367
-            ZIndex: =19
+        Button10_16 As button:
+            Fill: =RGBA(237, 237, 237, 0.51)
+            Height: =64
+            OnSelect: =Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
+            Size: =24
+            Text: =""
+            Width: =80
+            ZIndex: =1
 
-        Label9 As label:
-            Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 1)
-            BorderThickness: =2
+        Icon3_17 As icon.ChevronLeft:
             Color: =RGBA(255, 255, 255, 1)
-            Fill: =RGBA(40, 70, 130, 1)
-            FontWeight: =FontWeight.Semibold
-            Height: =68
-            Size: =25
-            Text: ="Zona"
-            Width: =255
-            X: =71
-            Y: =299
-            ZIndex: =20
+            DisplayMode: =DisplayMode.View
+            Height: =48
+            Icon: =Icon.Reload
+            Width: =50
+            X: =15
+            Y: =8
+            ZIndex: =2
 
-        Label10 As label:
-            Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 1)
-            BorderThickness: =2
+    Container2_15 As groupContainer.manualLayoutContainer:
+        Height: =64
+        Width: =80
+        X: =16
+        Y: =10
+        ZIndex: =25
+
+        Button10_15 As button:
+            Fill: =RGBA(237, 237, 237, 0.51)
+            Height: =64
+            OnSelect: =Navigate(ZonaSelector,ScreenTransition.Fade)
+            Size: =24
+            Text: =""
+            Width: =80
+            ZIndex: =1
+
+        Icon3_16 As icon.ChevronLeft:
             Color: =RGBA(255, 255, 255, 1)
-            Fill: =RGBA(40, 70, 130, 1)
-            FontWeight: =FontWeight.Semibold
-            Height: =68
-            Size: =25
-            Text: ="Estatus"
-            Width: =261
-            X: =326
-            Y: =299
-            ZIndex: =21
-
-        Label11 As label:
-            Align: =Align.Center
-            BorderColor: =RGBA(0, 0, 0, 1)
-            BorderThickness: =2
-            Fill: =RGBA(255, 255, 255, 1)
-            Height: =67
-            Size: =21
-            Text: =GalleriaZonas.Selected.estatusGeneral
-            Width: =261
-            X: =326
-            Y: =367
-            ZIndex: =22
+            DisplayMode: =DisplayMode.View
+            Height: =31
+            Icon: =Icon.ChevronLeft
+            Width: =41
+            X: =15
+            Y: =16
+            ZIndex: =2
 
