@@ -175,15 +175,6 @@ ZonasDetail As screen:
         Y: =13
         ZIndex: =9
 
-        Button10_12 As button:
-            Fill: =RGBA(237, 237, 237, 0.51)
-            Height: =64
-            OnSelect: =Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
-            Size: =24
-            Text: =""
-            Width: =80
-            ZIndex: =1
-
         Icon3_13 As icon.ChevronLeft:
             Color: =RGBA(255, 255, 255, 1)
             DisplayMode: =DisplayMode.View
@@ -192,6 +183,16 @@ ZonasDetail As screen:
             Width: =50
             X: =15
             Y: =8
+            ZIndex: =1
+
+        Button10_12 As button:
+            Fill: =RGBA(237, 237, 237, 0.51)
+            Height: =64
+            HoverFill: =ColorFade(RGBA(0, 18, 107, 0.5), -0.5%)
+            OnSelect: =Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
+            Size: =24
+            Text: =""
+            Width: =80
             ZIndex: =2
 
     Container2_13 As groupContainer.manualLayoutContainer:
@@ -201,15 +202,6 @@ ZonasDetail As screen:
         Y: =10
         ZIndex: =10
 
-        Button10_13 As button:
-            Fill: =RGBA(237, 237, 237, 0.51)
-            Height: =64
-            OnSelect: =Navigate(ZonaSelector,ScreenTransition.Fade)
-            Size: =24
-            Text: =""
-            Width: =80
-            ZIndex: =1
-
         Icon3_14 As icon.ChevronLeft:
             Color: =RGBA(255, 255, 255, 1)
             DisplayMode: =DisplayMode.View
@@ -218,6 +210,16 @@ ZonasDetail As screen:
             Width: =41
             X: =15
             Y: =16
+            ZIndex: =1
+
+        Button10_13 As button:
+            Fill: =RGBA(237, 237, 237, 0.51)
+            Height: =64
+            HoverFill: =ColorFade(RGBA(0, 18, 107, 0.5), -0.5%)
+            OnSelect: =Navigate(ZonaSelector,ScreenTransition.Fade)
+            Size: =24
+            Text: =""
+            Width: =80
             ZIndex: =2
 
     Label1_10 As label:
