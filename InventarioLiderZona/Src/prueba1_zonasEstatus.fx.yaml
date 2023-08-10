@@ -74,15 +74,6 @@ prueba1_zonasEstatus As screen:
         Y: =13
         ZIndex: =8
 
-        Button10_9 As button:
-            Fill: =RGBA(166, 166, 166, 0.35)
-            Height: =64
-            OnSelect: =Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
-            Size: =24
-            Text: =""
-            Width: =80
-            ZIndex: =1
-
         Icon3_10 As icon.ChevronLeft:
             Color: =RGBA(255, 255, 255, 1)
             DisplayMode: =DisplayMode.View
@@ -91,6 +82,17 @@ prueba1_zonasEstatus As screen:
             Width: =50
             X: =15
             Y: =8
+            ZIndex: =1
+
+        Button10_9 As button:
+            Fill: =RGBA(166, 166, 166, 0.35)
+            Height: =64
+            HoverColor: =RGBA(56, 96, 178, 0.5)
+            HoverFill: =ColorFade(RGBA(0, 18, 107, 0.5), -0.5%)
+            OnSelect: =Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
+            Size: =24
+            Text: =""
+            Width: =80
             ZIndex: =2
 
     fondo_blanco_2 As button:
@@ -234,6 +236,12 @@ prueba1_zonasEstatus As screen:
             X: =84
             Y: =214
             ZIndex: =9
+
+    Rectangle9 As rectangle:
+        Fill: =RGBA(56, 96, 178, 0.43)
+        X: =268
+        Y: =107
+        ZIndex: =22
 
     Group3_4 As group:
         Height: =5
