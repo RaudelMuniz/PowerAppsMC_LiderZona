@@ -123,7 +123,7 @@ prueba1_zonasEstatus As screen:
         Text: ="Capturista"
         Width: =199
         X: =104
-        Y: =495
+        Y: =480
         ZIndex: =13
 
     Label7_12 As label:
@@ -132,8 +132,8 @@ prueba1_zonasEstatus As screen:
         Size: =20
         Text: ="Auditor"
         Width: =142
-        X: =109
-        Y: =568
+        X: =108
+        Y: =584
         ZIndex: =14
 
     Button13_4 As button:
@@ -153,10 +153,10 @@ prueba1_zonasEstatus As screen:
         ZIndex: =15
 
     Container3_4 As groupContainer.manualLayoutContainer:
-        Height: =59
-        Width: =252
+        Height: =85
+        Width: =275
         X: =286
-        Y: =502
+        Y: =475
         ZIndex: =16
 
         Button11_4 As button:
@@ -165,15 +165,15 @@ prueba1_zonasEstatus As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Font: =Font.Verdana
             FontWeight: =FontWeight.Normal
-            Height: =59
-            Size: =20
+            Height: =85
+            Size: =17
             Text: =If(GalleriaZonas.Selected.Capturista="N/A","No Hay Capturista Asignado",GalleriaZonas.Selected.Capturista)
-            Width: =252
+            Width: =275
             ZIndex: =1
 
     Container4_4 As groupContainer.manualLayoutContainer:
-        Height: =59
-        Width: =252
+        Height: =90
+        Width: =275
         X: =286
         Y: =576
         ZIndex: =17
@@ -184,10 +184,10 @@ prueba1_zonasEstatus As screen:
             Fill: =RGBA(0, 0, 0, 0)
             Font: =Font.Verdana
             FontWeight: =FontWeight.Normal
-            Height: =58
-            Size: =20
+            Height: =87
+            Size: =17
             Text: =If(GalleriaZonas.Selected.Auditor="N/A","No Hay Auditor Asignado",GalleriaZonas.Selected.Auditor)
-            Width: =247
+            Width: =275
             ZIndex: =1
 
     Label8_5 As label:
