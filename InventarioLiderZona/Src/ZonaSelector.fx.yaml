@@ -48,15 +48,6 @@ ZonaSelector As screen:
         Y: =13
         ZIndex: =7
 
-        Button10_14 As button:
-            Fill: =RGBA(136, 160, 209, 0.51)
-            Height: =64
-            OnSelect: =Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
-            Size: =24
-            Text: =""
-            Width: =80
-            ZIndex: =1
-
         Icon3_15 As icon.ChevronLeft:
             Color: =RGBA(255, 255, 255, 1)
             DisplayMode: =DisplayMode.View
@@ -65,6 +56,16 @@ ZonaSelector As screen:
             Width: =50
             X: =15
             Y: =8
+            ZIndex: =1
+
+        Button10_14 As button:
+            Fill: =RGBA(136, 160, 209, 0.51)
+            Height: =64
+            HoverFill: =ColorFade(RGBA(0, 18, 107, 0.5), -0.5%)
+            OnSelect: =Refresh(MesaControl_Request);Refresh(MesaControl_UserGeneral)
+            Size: =24
+            Text: =""
+            Width: =80
             ZIndex: =2
 
     Button3 As button:
