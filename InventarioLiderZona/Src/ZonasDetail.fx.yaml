@@ -137,7 +137,7 @@ ZonasDetail As screen:
 
     Button1 As button:
         DisplayMode: =If(GalleriaZonas.Selected.estatusF1="N/A",DisplayMode.Edit,DisplayMode.Disabled)
-        Fill: =RGBA(0, 18, 107, 1)
+        Fill: =RGBA(40, 70, 130, 1)
         Height: =96
         OnSelect: |-
             =Patch(
