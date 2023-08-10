@@ -18,7 +18,9 @@ Inicio_prueba2 As screen:
         Font: =Font.Verdana
         Height: =99
         Size: =21
-        Text: ="Bienvenido! aquí se pone un texto mamalón"
+        Text: |-
+            ="Bienvenido! 
+            Empieza ahora!"
         Width: =473
         X: =80
         Y: =558
@@ -106,9 +108,7 @@ Inicio_prueba2 As screen:
         Font: =Font.Verdana
         Height: =99
         Size: =16
-        Text: |-
-            ="Se pone un texto mamalón
-            "
+        Text: ="Líderes de zona"
         Width: =473
         X: =82
         Y: =815
