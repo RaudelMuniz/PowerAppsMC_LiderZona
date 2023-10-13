@@ -64,17 +64,6 @@ Inicio_prueba2 As screen:
             Y: =35
             ZIndex: =3
 
-        Image5_2 As image:
-            Fill: =RGBA(227, 9, 9, 0)
-            Height: =645
-            Image: =fondo_prueba
-            ImagePosition: =ImagePosition.Fill
-            Transparency: =0.8
-            Width: =584
-            X: =27
-            Y: =36
-            ZIndex: =4
-
         Rectangle10_2 As rectangle:
             Fill: =RGBA(0, 13, 77, 0.53)
             Height: =646
